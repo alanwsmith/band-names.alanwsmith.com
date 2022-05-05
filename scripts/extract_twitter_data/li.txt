@@ -1,0 +1,249 @@
+<li>A Meter of Fact</li>
+<li>Abstraction Lair</li>
+<li>Acid Blood</li>
+<li>An Open Letter</li>
+<li>Arguing Epochs</li>
+<li>Armed with iPads</li>
+<li>Arthur and Merlin's</li>
+<li>Baby Groot Doodle</li>
+<li>Baseline Syndrome</li>
+<li>Bible of Wines</li>
+<li>Big Four Oh</li>
+<li>Bipolar One</li>
+<li>Block Sender</li>
+<li>Booze Box </li>
+<li>Breaking Changes</li>
+<li>Bum Slider</li>
+<li>Burner GitHub</li>
+<li>Candles In The Kitchen</li>
+<li>Cartoon Violence</li>
+<li>Chaos Grenade</li>
+<li>Chocolate and Whiskey</li>
+<li>Code Dreamer</li>
+<li>Code Smell</li>
+<li>Code Two</li>
+<li>Combo Curses</li>
+<li>Communication Async</li>
+<li>Concussion Protocol</li>
+<li>Craving Catharsis</li>
+<li>Date Time Zulu</li>
+<li>Decision Tree</li>
+<li>Defaults and Alts</li>
+<li>Disaster Recovery</li>
+<li>Double Hurricane and the Murder Hornets</li>
+<li>Dragon Launch</li>
+<li>Dramatic Pets</li>
+<li>Eagle, Houston</li>
+<li>Electric Super Sex</li>
+<li>Everything a Subscription</li>
+<li>Face Palm Picard</li>
+<li>Fail Whale</li>
+<li>Fans of Chaos</li>
+<li>ffs</li>
+<li>Fuck That Noise</li>
+<li>Ganesh's Garage</li>
+<li>Go / No-Go </li>
+<li>Grabthar's Hammer</li>
+<li>Greater Nerd Syndrome </li>
+<li>Guetzli’s Psychovisual Model</li>
+<li>Hangover Cheeseburger</li>
+<li>Here Be Dragons</li>
+<li>Hero's Journey</li>
+<li>Hot Chicken </li>
+<li>Ideas and Accidents</li>
+<li>Ideas and Execution</li>
+<li>ii–V–I</li>
+<li>Ima Gonna</li>
+<li>Impossible Until</li>
+<li>Inconsistent Rationality</li>
+<li>Invasion of Piracy</li>
+<li>Inverse Octothorp Law</li>
+<li>Iron Gjallarhorn</li>
+<li>James-Luc Sky-Baggins</li>
+<li>Jeff Goldblum's Swagger</li>
+<li>Jumping Puzzle</li>
+<li>kill -9</li>
+<li>Lack of Noise</li>
+<li>Lazy River</li>
+<li>localhost 3000</li>
+<li>Looking for Language</li>
+<li>LSS (Like, Share, and Subscribe)</li>
+<li>Ludicrous Speed</li>
+<li>Ludicrous Speed</li>
+<li>MacGyver Mullet</li>
+<li>Magnetar</li>
+<li>Make It Up In Volume</li>
+<li>Midnight Vegas Coffee </li>
+<li>Mnemosyne</li>
+<li>Moments of Vertigo</li>
+<li>Moral Combat </li>
+<li>Multi-Pass</li>
+<li>Mute Switch</li>
+<li>Negative Ghost Rider</li>
+<li>Nightmare Machine</li>
+<li>No More Nostalgia</li>
+<li>Nocebo Effect</li>
+<li>Nose Whistle</li>
+<li>Not A Robot</li>
+<li>Occident</li>
+<li>Off By One</li>
+<li>Off Till January</li>
+<li>Old Man Moves</li>
+<li>Out Of Band</li>
+<li>Out of Scope</li>
+<li>Paging Humanity</li>
+<li>Panic Sync</li>
+<li>Paranoia Fatigue</li>
+<li>Perceptual Motion Machine</li>
+<li>PhishStyx</li>
+<li>Please Read</li>
+<li>Post No Bills</li>
+<li>Presto Chango</li>
+<li>Previous Preface</li>
+<li>Prince Hat</li>
+<li>Prosperity and Prosecution</li>
+<li>Python Time Delta</li>
+<li>Quarantine Haircut</li>
+<li>Random Edge Cases</li>
+<li>Rasters &amp; Vectors</li>
+<li>Razor Blade Apple</li>
+<li>Real People. Not Actors.</li>
+<li>Recursive Acronym</li>
+<li>rinse, repeat</li>
+<li>Roomba Knife Fight</li>
+<li>School Night Drinking Club</li>
+<li>Schrödinger Chat</li>
+<li>Scope Creep</li>
+<li>Sean Connery's Ghost</li>
+<li>Separation of Concerns</li>
+<li>Shameless Commerce Division</li>
+<li>Shebang #! (Pronounced `SHəˈbaNG SHəˈbaNG`)</li>
+<li>Shoots Flaming Balls</li>
+<li>Smash Factor</li>
+<li>Snake River Canyon</li>
+<li>Stay Tuned</li>
+<li>Steve Martin's Banjo</li>
+<li>Strength of Shadows</li>
+<li>Stuck On Mute</li>
+<li>sudo !! (pronounced Pseudo Bang Bang )</li>
+<li>Superman’s Socks</li>
+<li>Superseded Scientific Theory </li>
+<li>Suspicious Motives</li>
+<li>Swamp Ass </li>
+<li>Targeting Utopia</li>
+<li>Temporary Cyborgs</li>
+<li>The Abstraction Boundaries</li>
+<li>The Abyss</li>
+<li>The Acoustically Transparent</li>
+<li>The Adama Maneuver</li>
+<li>The Ain't No Jokes</li>
+<li>The Alchemical Tradition</li>
+<li>The Antipsychotics</li>
+<li>The API Explorers</li>
+<li>The Background Noise</li>
+<li>The Billion Laughs Attack</li>
+<li>The Bizarrely Magical</li>
+<li>The Buzz Threshold</li>
+<li>The Cautiously Optimistic</li>
+<li>The Church Coughers</li>
+<li>The Church Giggles</li>
+<li>The Cocaine Manic</li>
+<li>The Dead Blow Hammers</li>
+<li>The Dead Dragonflies</li>
+<li>The Dead Jury Members</li>
+<li>The Deorbit Burn</li>
+<li>The Detritus</li>
+<li>The Diacritic Symbols</li>
+<li>The Dongle Suspense</li>
+<li>The Editor Actions</li>
+<li>The Error Message</li>
+<li>The Exhale</li>
+<li>The Fireable Offense</li>
+<li>The Future Historians</li>
+<li>The Gated Snares</li>
+<li>The Great Hypothesis</li>
+<li>The Hapax Legomenon</li>
+<li>The Happy Path</li>
+<li>The Hard Stop</li>
+<li>The Helpful Hotkeys</li>
+<li>The Hermit Tendencies</li>
+<li>The Idempotent</li>
+<li>The Infinite Scroll</li>
+<li>The Ink Drinkers</li>
+<li>The Intentionally Blank</li>
+<li>The Invisible Clichés</li>
+<li>The Irregardless</li>
+<li>The Jenga Tower of Assumptions</li>
+<li>The Known Quantities</li>
+<li>The Memento Mori </li>
+<li>The More Specific</li>
+<li>The Mute Mistake</li>
+<li>The Mythical Monsters</li>
+<li>The Naming Is Hard</li>
+<li>The Neither Nor </li>
+<li>The New Shoe Ankle Blisters</li>
+<li>The Nontrivials</li>
+<li>The Or Better Said</li>
+<li>The Past Close Sellers</li>
+<li>The Plucky Comic Relief</li>
+<li>The Polyphasic Sleepers</li>
+<li>The Poor Proxies</li>
+<li>The Post Cold Loogies</li>
+<li>The Psychoacoustics</li>
+<li>The Rained Out Revolution</li>
+<li>The Raw Text Blobs</li>
+<li>The Representational State Transfer</li>
+<li>The Risk Profile</li>
+<li>The Safely Ejected</li>
+<li>The See Also</li>
+<li>The Solo Twins</li>
+<li>The Sometimes Dark</li>
+<li>The Source Of Truth</li>
+<li>The String Literals</li>
+<li>The Tack Sharp</li>
+<li>The Tangents Talkers</li>
+<li>The Thought Criminals</li>
+<li>The Tone Curve</li>
+<li>The Tone Setters</li>
+<li>The True Freshman</li>
+<li>The Unfortunately Errect Ear</li>
+<li>The Yak Shavers</li>
+<li>Thelonious and Thanos</li>
+<li>Titans Of The Past</li>
+<li>Tools and Knowledge</li>
+<li>Trademark Symbol</li>
+<li>Truckstop Restroom</li>
+<li>Trust Chain</li>
+<li>Truth in Music</li>
+<li>Two-Class Boosted Decision Tree</li>
+<li>Variations On A Meme</li>
+<li>War Music</li>
+<li>Wheels First</li>
+<li>Why Why Z</li>
+<li>Willie and What's His Name</li>
+<li>Within the Comparator</li>
+<li>Wolf Spider </li>
+<li>Yak Shavers Local 151</li>
+<li>You've Been Warned</li>
+<li>Conspiracy Mechanics</li>
+<li>Deeper Ephiphany</li>
+<li>Fluid Space Calculator</li>
+<li>God Thunderbolt</li>
+<li>Infinite Back-Burner</li>
+<li>Make It Up In Volume</li>
+<li>Mind Physics</li>
+<li>October Light</li>
+<li>The Dress Code Violation</li>
+<li>The Giant Spoon</li>
+<li>The Infinite Descent</li>
+<li>The Merely Marginal</li>
+<li>The Non-Trivials</li>
+<li>The Subjective Pleasures</li>
+<li>Peanut Butter Vengeance</li>
+<li>Remember the Busy Signal?</li>
+<li>Sex-O-Tron 9000</li>
+<li>Space Station Flame Balls</li>
+<li>Spider Lightning</li>
+<li>War Rocket Ajax</li>
+<li>Wild Turkey Surprise</li>
+<li>Yoda Talking Ninjas</li>
