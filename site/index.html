@@ -1,455 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Band Names - Alan W. Smith</title>
-    <meta property="og:title" content="Band Names - Alan W. Smith" />
-    <meta name="twitter:title" content="Band Names - Alan W. Smith" />
+        <title>Band Names - Alan W. Smith</title>
+        <meta property="og:title" content="Band Names - Alan W. Smith" />
+        <meta name="twitter:title" content="Band Names - Alan W. Smith" />
 
-    <meta property="og:url" content="https://band-names.alanwsmith.com/" />
+        <meta property="og:url" content="https://band-names.alanwsmith.com/" />
 
-    <meta name="description" content="My collection of band names" />
-    <meta property="og:description" content="My collection of band names" />
+        <meta name="description" content="My collection of band names" />
+        <meta property="og:description" content="My collection of band names" />
 
-    <meta
-      property="og:image"
-      content="https://band-names.alanwsmith.com/og-images/main.png"
-    />
-    <meta
-      name="twitter:image"
-      content="https://band-names.alanwsmith.com/og-images/main.png"
-    />
+        <meta
+            property="og:image"
+            content="https://band-names.alanwsmith.com/og-images/main.png"
+        />
+        <meta
+            name="twitter:image"
+            content="https://band-names.alanwsmith.com/og-images/main.png"
+        />
 
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@theidofalan" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@theidofalan" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+            rel="stylesheet"
+        />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/favicons/96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="128x128"
-      href="/favicons/128x128.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="196x196"
-      href="/favicons/196x196.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="228x228"
-      href="/favicons/228x228.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="152x152"
-      href="/favicons/152x152.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="167x167"
-      href="/favicons/167x167.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="180x180"
-      href="/favicons/180x180.png"
-    />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicons/16x16.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicons/32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/favicons/96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="128x128"
+            href="/favicons/128x128.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="196x196"
+            href="/favicons/196x196.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="228x228"
+            href="/favicons/228x228.png"
+        />
+        <link
+            rel="apple-touch-icon-precomposed"
+            sizes="152x152"
+            href="/favicons/152x152.png"
+        />
+        <link
+            rel="apple-touch-icon-precomposed"
+            sizes="167x167"
+            href="/favicons/167x167.png"
+        />
+        <link
+            rel="apple-touch-icon-precomposed"
+            sizes="180x180"
+            href="/favicons/180x180.png"
+        />
 
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        font-family: 'Open Sans', sans-serif;
-      }
-      header {
-        padding-top: 18px;
-        padding-bottom: 4px;
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-        border-bottom: 1px solid #888;
-      }
-      main {
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-      }
-      footer {
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 60px;
-        padding-bottom: 12px;
-        font-size: 0.9rem;
-      }
-      a {
-        text-decoration: none;
-      }
-      li {
-        padding-bottom: 0.9rem;
-      }
-      .pallet1 {
-        background-color: #313638;
-        color: #e4b363;
-      }
-      .pallet1 a {
-        color: #b7b7a4;
-      }
-      .pallet1 footer {
-        color: #a5a58d;
-      }
-    </style>
-  </head>
-  <body class="pallet1">
-    <header>
-      <a href="https://www.alanwsmith.com/">alanwsmith.com</a> ~
-      <a href="https://links.alanwsmith.com">links</a> ~
-      <a href="https://podcast.alanwsmith.com/">podcast</a>
-    </header>
-    <main>
-      <h1>Band Names</h1>
-      <p>These are the names of my new band</p>
-      <ul>
-        <li>Abstraction Lair</li>
-        <li>Acid Blood</li>
-        <li>An Open Letter</li>
-        <li>Arguing Epochs</li>
-        <li>Armed with iPads</li>
-        <li>Arthur And The Merlins</li>
-        <li>Async Comm</li>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                display: grid;
+                grid-template-rows: auto 1fr auto;
+                font-family: 'Open Sans', sans-serif;
+            }
+            header {
+                padding-top: 18px;
+                padding-bottom: 4px;
+                width: 100%;
+                max-width: 64ch;
+                margin: 0 auto;
+                border-bottom: 1px solid #888;
+            }
+            main {
+                width: 100%;
+                max-width: 64ch;
+                margin: 0 auto;
+            }
+            footer {
+                width: 100%;
+                max-width: 64ch;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 60px;
+                padding-bottom: 12px;
+                font-size: 0.9rem;
+            }
+            a {
+                text-decoration: none;
+            }
+            li {
+                padding-bottom: 0.9rem;
+            }
+            .pallet1 {
+                background-color: #313638;
+                color: #e4b363;
+            }
+            .pallet1 a {
+                color: #b7b7a4;
+            }
+            .pallet1 footer {
+                color: #a5a58d;
+            }
+        </style>
+    </head>
+    <body class="pallet1">
+        <header>
+            <a href="https://www.alanwsmith.com/">alanwsmith.com</a> ~
+            <a href="https://links.alanwsmith.com">links</a> ~
+            <a href="https://podcast.alanwsmith.com/">podcast</a>
+        </header>
+        <main>
+            <h1>Band Names</h1>
+            <p>These are the names of my new band</p>
+            <ul>
+                <li>Abstraction Lair</li>
+                <li>Acid Blood</li>
+                <li>An Open Letter</li>
+                <li>Arguing Epochs</li>
+                <li>Armed with iPads</li>
+                <li>Arthur And The Merlins</li>
+                <li>Async Comm</li>
 
-        <li>Baby Groot Doodle</li>
-        <li>Baseline Syndrome</li>
-        <li>Bible of Wines</li>
-        <li>Big Four Oh</li>
-        <li>Billion Laughs Attack</li>
-        <li>Bipolar One</li>
-        <li>Block Sender</li>
-        <li>Booze Box</li>
-        <li>Breaking Changes</li>
-        <li>Bum Slider</li>
-        <li>Burner</li>
+                <li>Baby Groot Doodle</li>
+                <li>Baseline Syndrome</li>
+                <li>Bible of Wines</li>
+                <li>Big Four Oh</li>
+                <li>Billion Laughs Attack</li>
+                <li>Bipolar One</li>
+                <li>Block Sender</li>
+                <li>Booze Box</li>
+                <li>Breaking Changes</li>
+                <li>Bum Slider</li>
+                <li>Burner</li>
 
-        <li>Candles In The Kitchen</li>
-        <li>Cartoon Violence</li>
-        <li>Cautiously Optimistic</li>
-        <li>Celebrity Nerd Professor</li>
-        <li>Chaos Grenade</li>
-        <li>Chocolate and Whiskey</li>
-        <li>Church Giggles</li>
-        <li>Code Dreamer</li>
-        <li>Code Smell</li>
-        <li>Code Two</li>
-        <li>Combo Curses</li>
-        <li>Comparator Realm</li>
-        <li>Concussion Protocol</li>
-        <li>Craving Catharsis</li>
+                <li>Candles In The Kitchen</li>
+                <li>Cartoon Violence</li>
+                <li>Cautiously Optimistic</li>
+                <li>Celebrity Nerd Professor</li>
+                <li>Chaos Grenade</li>
+                <li>Chocolate and Whiskey</li>
+                <li>Church Giggles</li>
+                <li>Code Dreamer</li>
+                <li>Code Smell</li>
+                <li>Code Two</li>
+                <li>Combo Curses</li>
+                <li>Comparator Realm</li>
+                <li>Concussion Protocol</li>
+                <li>Craving Catharsis</li>
 
-        <li>Date Time Zulu</li>
-        <li>Dead Blow Hammers</li>
-        <li>Decision Tree</li>
-        <li>Deeper Ephiphany</li>
-        <li>Defaults and Alts</li>
-        <li>Disaster Recovery</li>
-        <li>Double Hurricane and the Murder Hornets</li>
-        <li>Dox Panic</li>
-        <li>Dragon Launch</li>
-        <li>Dramatic Pets</li>
+                <li>Date Time Zulu</li>
+                <li>Dead Blow Hammers</li>
+                <li>Decision Tree</li>
+                <li>Deeper Ephiphany</li>
+                <li>Defaults and Alts</li>
+                <li>Disaster Recovery</li>
+                <li>Double Hurricane and the Murder Hornets</li>
+                <li>Dox Panic</li>
+                <li>Dragon Launch</li>
+                <li>Dramatic Pets</li>
 
-        <li>Eagle, Houston</li>
-        <li>Edge Case</li>
-        <li>Electric Super Sex</li>
-        <li>Everything a Subscription</li>
+                <li>Eagle, Houston</li>
+                <li>Edge Case</li>
+                <li>Electric Super Sex</li>
+                <li>Everything a Subscription</li>
 
-        <li>Face Palm Picard</li>
-        <li>Fail Whale</li>
-        <li>Fans of Chaos</li>
-        <li>ffs</li>
-        <li>Fluid Space Calculator</li>
-        <li>Frequency Illusion</li>
-        <li>FTN (Fuck That Noise)</li>
+                <li>Face Palm Picard</li>
+                <li>Fail Whale</li>
+                <li>Fans of Chaos</li>
+                <li>ffs</li>
+                <li>Fluid Space Calculator</li>
+                <li>Frequency Illusion</li>
+                <li>FTN (Fuck That Noise)</li>
 
-        <li>Gjallarhorn</li>
-        <li>Ganesh's Garage</li>
-        <li>Go / No-Go</li>
-        <li>God Thunderbolt</li>
-        <li>Grabthar's Hammer</li>
-        <li>Greater Nerd Syndrome</li>
-        <li>Guetzli’s Psychovisual Model</li>
+                <li>Gjallarhorn</li>
+                <li>Ganesh's Garage</li>
+                <li>Go / No-Go</li>
+                <li>God Thunderbolt</li>
+                <li>Grabthar's Hammer</li>
+                <li>Greater Nerd Syndrome</li>
+                <li>Guetzli’s Psychovisual Model</li>
 
-        <li>Hangover Cheeseburger</li>
-        <li>Here Be Dragons</li>
-        <li>Hero's Journey</li>
-        <li>Hot Chicken</li>
+                <li>Hangover Cheeseburger</li>
+                <li>Here Be Dragons</li>
+                <li>Hero's Journey</li>
+                <li>Hot Chicken</li>
 
-        <li>Ideas and Accidents</li>
-        <li>Ideas and Execution</li>
-        <li>ii–V–I</li>
-        <li>Ima Gonna</li>
-        <li>Impossible Until</li>
-        <li>Invasion of Piracy</li>
-        <li>Inverse Octothorp Law</li>
+                <li>Ideas and Accidents</li>
+                <li>Ideas and Execution</li>
+                <li>ii–V–I</li>
+                <li>Ima Gonna</li>
+                <li>Impossible Until</li>
+                <li>Invasion of Piracy</li>
+                <li>Inverse Octothorp Law</li>
+                <li>Italian Spiderman</li>
 
-        <li>James-Luc Sky-Baggins</li>
-        <li>Jeff Goldblum's Swagger</li>
-        <li>Jump Puzzle</li>
+                <li>James-Luc Sky-Baggins</li>
+                <li>Jeff Goldblum's Swagger</li>
+                <li>Jump Puzzle</li>
 
-        <li>kill -9</li>
+                <li>kill -9</li>
 
-        <li>Lack of Noise</li>
-        <li>Lazy River</li>
-        <li>localhost 3000</li>
-        <li>Looking for Language</li>
-        <li>LSS (Like, Share, and Subscribe)</li>
-        <li>Ludicrous Speed</li>
+                <li>Lack of Noise</li>
+                <li>Lazy River</li>
+                <li>localhost 3000</li>
+                <li>Looking for Language</li>
+                <li>LSS (Like, Share, and Subscribe)</li>
+                <li>Ludicrous Speed</li>
 
-        <li>MacGyver Mullet</li>
-        <li>Magnetar</li>
-        <li>Make It Up In Volume</li>
-        <li>Mermaid Diagrams</li>
-        <li>Meter of Fact</li>
-        <li>Mind Physics</li>
-        <li>Mnemosyne</li>
-        <li>Moments of Vertigo</li>
-        <li>Moral Combat</li>
-        <li>Multi-Pass</li>
-        <li>Mute Switch</li>
+                <li>MacGyver Mullet</li>
+                <li>Magnetar</li>
+                <li>Make It Up In Volume</li>
+                <li>Mermaid Diagrams</li>
+                <li>Meter of Fact</li>
+                <li>Mind Physics</li>
+                <li>Mnemosyne</li>
+                <li>Moments of Vertigo</li>
+                <li>Moral Combat</li>
+                <li>Multi-Pass</li>
+                <li>Mute Switch</li>
 
-        <li>Negative Ghost Rider</li>
-        <li>Nightmare Machine</li>
-        <li>No More Nostalgia</li>
-        <li>Nocebo Effect</li>
-        <li>Nose Whistle</li>
-        <li>Not A Robot</li>
+                <li>Negative Ghost Rider</li>
+                <li>Nightmare Machine</li>
+                <li>No More Nostalgia</li>
+                <li>Nocebo Effect</li>
+                <li>Nose Whistle</li>
+                <li>Not A Robot</li>
 
-        <li>Occident</li>
-        <li>October Light</li>
-        <li>Off By One</li>
-        <li>Off Till January</li>
-        <li>Old Man Moves</li>
-        <li>Out Of Band</li>
-        <li>Out of Scope</li>
+                <li>Occident</li>
+                <li>October Light</li>
+                <li>Off By One</li>
+                <li>Off Till January</li>
+                <li>Old Man Moves</li>
+                <li>Out Of Band</li>
+                <li>Out of Scope</li>
 
-        <li>Paging Humanity</li>
-        <li>Panic Sync</li>
-        <li>Paranoia Fatigue</li>
-        <li>Peanut Butter Vengeance</li>
-        <li>Perceptual Motion Machine</li>
-        <li>PhishStyx</li>
-        <li>Please Read</li>
-        <li>Post No Bills</li>
-        <li>Presto Chango</li>
-        <li>Previous Preface</li>
-        <li>Prince Hat</li>
-        <li>Prosperity and Prosecution</li>
-        <li>Python Time Delta</li>
+                <li>Paging Humanity</li>
+                <li>Panic Sync</li>
+                <li>Paranoia Fatigue</li>
+                <li>Peanut Butter Vengeance</li>
+                <li>Perceptual Motion Machine</li>
+                <li>PhishStyx</li>
+                <li>Please Read</li>
+                <li>Post No Bills</li>
+                <li>Presto Chango</li>
+                <li>Previous Preface</li>
+                <li>Prince Hat</li>
+                <li>Prosperity and Prosecution</li>
+                <li>Python Time Delta</li>
 
-        <li>Quarantine Haircut</li>
+                <li>Quarantine Haircut</li>
 
-        <li>Rasters &amp; Vectors</li>
-        <li>Razor Blade Apple</li>
-        <li>Real People. Not Actors.</li>
-        <li>Recursive Acronym</li>
-        <li>Remember the Busy Signal?</li>
-        <li>rinse, repeat</li>
-        <li>Roomba Knife Fight</li>
+                <li>Rasters &amp; Vectors</li>
+                <li>Razor Blade Apple</li>
+                <li>Real People. Not Actors.</li>
+                <li>Recursive Acronym</li>
+                <li>Remember the Busy Signal?</li>
+                <li>Rinse, Repeat</li>
+                <li>Risk Profile</li>
+                <li>Roomba Knife Fight</li>
 
-        <li>School Night Drinking Club</li>
-        <li>Schrödinger Chat</li>
-        <li>Scope Creep</li>
-        <li>Sean Connery's Ghost</li>
-        <li>Separation of Concerns</li>
-        <li>Sex-O-Tron 9000</li>
-        <li>Shameless Commerce Division</li>
-        <li>Shebang #! (Pronounced `SHəˈbaNG SHəˈbaNG`)</li>
-        <li>Shoots Flaming Balls</li>
-        <li>Smash Factor</li>
-        <li>Snake River Canyon</li>
-        <li>Space Station Windows</li>
-        <li>Spider Lightning</li>
-        <li>Stay Tuned</li>
-        <li>Steve Martin's Banjo</li>
-        <li>Strength of Shadows</li>
-        <li>Stuck On Mute</li>
-        <li>sudo !! (pronounced Pseudo Bang Bang )</li>
-        <li>Superman’s Socks</li>
-        <li>Superseded Scientific Theory</li>
-        <li>Suspicious Motives</li>
-        <li>Swamp Ass</li>
+                <li>School Night Drinking Club</li>
+                <li>Schrödinger Chat</li>
+                <li>Scope Creep</li>
+                <li>Sean Connery's Ghost</li>
+                <li>Separation of Concerns</li>
+                <li>Sex-O-Tron 9000</li>
+                <li>Shameless Commerce Division</li>
+                <li>Shebang #! (Pronounced `SHəˈbaNG SHəˈbaNG`)</li>
+                <li>Shoots Flaming Balls</li>
+                <li>Smash Factor</li>
+                <li>Snake River Canyon</li>
+                <li>Space Station Windows</li>
+                <li>Spider Lightning</li>
+                <li>Stay Tuned</li>
+                <li>Steve Martin's Banjo</li>
+                <li>Strength of Shadows</li>
+                <li>Stuck On Mute</li>
+                <li>sudo !! (pronounced Pseudo Bang Bang )</li>
+                <li>Superman’s Socks</li>
+                <li>Superseded Scientific Theory</li>
+                <li>Suspicious Motives</li>
+                <li>Swamp Ass</li>
 
-        <li>Utopia Target</li>
-        <li>Temporary Cyborgs</li>
+                <li>Utopia Target</li>
+                <li>Temporary Cyborgs</li>
 
-        <li>The Abstraction Boundaries</li>
-        <li>The Abyss</li>
-        <li>The Transparent Acoustic</li>
-        <li>Adama Maneuver</li>
-        <li>The Ain't No Jokes</li>
-        <li>Alchemical Tradition</li>
-        <li>The Antipsychotics</li>
-        <li>The Authority</li>
+                <li>The Abstraction Boundaries</li>
+                <li>The Abyss</li>
+                <li>The Transparent Acoustic</li>
+                <li>Adama Maneuver</li>
+                <li>The Ain't No Jokes</li>
+                <li>Alchemical Tradition</li>
+                <li>The Antipsychotics</li>
+                <li>The Authority</li>
 
-        <li>The Background Noise</li>
-        <li>The Bizarrely</li>
-        <li>The Buzz Threshold</li>
+                <li>The Background Noise</li>
+                <li>The Bizarrely</li>
+                <li>The Buzz Threshold</li>
 
-        <li>The Church Coughers</li>
-        <li>The Cocaine Manic</li>
-        <li>The Conspiracy Mechanics</li>
+                <li>The Church Coughers</li>
+                <li>The Cocaine Manic</li>
+                <li>The Conspiracy Mechanics</li>
 
-        <li>The Dead Dragonflies</li>
-        <li>The Dead Jury Members</li>
-        <li>The Deorbit Burn</li>
-        <li>The Detritus</li>
-        <li>The Diacritic Symbols</li>
-        <li>The Dongle Suspense</li>
-        <li>The Dress Code Violation</li>
+                <li>The Dead Dragonflies</li>
+                <li>The Dead Jury Members</li>
+                <li>The Deorbit Burn</li>
+                <li>The Detritus</li>
+                <li>The Diacritic Symbols</li>
+                <li>The Dongle Suspense</li>
+                <li>The Dress Code Violation</li>
 
-        <li>The Editor Actions</li>
-        <li>The Error Message</li>
-        <li>The Exhale</li>
+                <li>The Editor Actions</li>
+                <li>The Error Message</li>
+                <li>The Exhale</li>
 
-        <li>The Fireable Offense</li>
-        <li>The Fourier Transform</li>
-        <li>The Future Historians</li>
+                <li>The Fireable Offense</li>
+                <li>The Fourier Transform</li>
+                <li>The Future Historians</li>
 
-        <li>The Gated Snares</li>
-        <li>The Giant Spoon</li>
-        <li>The Great Hypothesis</li>
+                <li>The Gated Snares</li>
+                <li>The Giant Spoon</li>
+                <li>The Great Hypothesis</li>
 
-        <li>The Hapax Legomenon</li>
-        <li>The Happy Path</li>
-        <li>The Hard Stop</li>
-        <li>The Hawthorne Effect</li>
-        <li>The Helpful Hotkeys</li>
-        <li>The Hermit Tendencies</li>
+                <li>The Hapax Legomenon</li>
+                <li>The Happy Path</li>
+                <li>The Hard Stop</li>
+                <li>The Hawthorne Effect</li>
+                <li>The Helpful Hotkeys</li>
+                <li>The Hermit Tendencies</li>
 
-        <li>The Idempotent</li>
-        <li>The Infinite Back-Burner</li>
-        <li>The Infinite Descent</li>
-        <li>The Infinite Scroll</li>
-        <li>The Ink Drinkers</li>
-        <li>The Intentionally Blank</li>
-        <li>The Invisible Clichés</li>
-        <li>The Irregardless</li>
+                <li>The Idempotent</li>
+                <li>The Infinite Back-Burner</li>
+                <li>The Infinite Descent</li>
+                <li>The Infinite Scroll</li>
+                <li>The Ink Drinkers</li>
+                <li>The Intentionally Blank</li>
+                <li>The Invisible Clichés</li>
+                <li>The Irregardless</li>
 
-        <li>The Jenga Assumptions</li>
+                <li>The Jenga Assumptions</li>
 
-        <li>The Known Quantities</li>
-        <li>The Konami Code</li>
+                <li>The Known Quantities</li>
+                <li>The Konami Code</li>
 
-        <li>The Meme Variations</li>
-        <li>The Memento Mori</li>
-        <li>The Merely Marginal</li>
-        <li>The More Specific</li>
-        <li>The Music Truth</li>
-        <li>The Mute Mistake</li>
-        <li>The Mythical Monsters</li>
+                <li>The Meme Variations</li>
+                <li>The Memento Mori</li>
+                <li>The Merely Marginal</li>
+                <li>The More Specific</li>
+                <li>The Music Truth</li>
+                <li>The Mute Mistake</li>
+                <li>The Mythical Monsters</li>
 
-        <li>The Naming Is Hard</li>
-        <li>The Neither Nor</li>
-        <li>The New Shoe Ankle Blisters</li>
-        <li>The Non-Trivials</li>
+                <li>The Naming Is Hard</li>
+                <li>The Neither Nor</li>
+                <li>The New Shoe Ankle Blisters</li>
+                <li>The Non-Trivials</li>
 
-        <li>The Or Better Said</li>
+                <li>The Or Better Said</li>
 
-        <li>The Past Close Sellers</li>
-        <li>The Plucky Comic Relief</li>
-        <li>The Polyphasic Nappers</li>
-        <li>The Poor Proxies</li>
-        <li>The Post Cold Loogies</li>
-        <li>The Psychoacoustics</li>
+                <li>The Past Close Sellers</li>
+                <li>The Plucky Comic Relief</li>
+                <li>The Polyphasic Nappers</li>
+                <li>The Poor Proxies</li>
+                <li>The Post Cold Loogies</li>
+                <li>The Psychoacoustics</li>
 
-        <li>The Raw Text Blobs</li>
-        <li>The Representative State Transfer</li>
-        <li>The Reveloution Rain Out</li>
-        <li>The Risk Profile</li>
+                <li>The Raw Text Blobs</li>
+                <li>The Representative State Transfer</li>
+                <li>The Reveloution Rain Out</li>
+                <li>The Risk Profile</li>
 
-        <li>The Safely Ejected</li>
-        <li>The See Also</li>
-        <li>The Slack Cops</li>
-        <li>The Solo Twins</li>
-        <li>The Sometimes Dark</li>
-        <li>The Source Of Truth</li>
-        <li>The String Literals</li>
-        <li>The Subjective Pleasures</li>
+                <li>The Safely Ejected</li>
+                <li>The See Also</li>
+                <li>The Slack Cops</li>
+                <li>The Solo Twins</li>
+                <li>The Sometimes Dark</li>
+                <li>The Source Of Truth</li>
+                <li>The String Literals</li>
+                <li>The Subjective Pleasures</li>
 
-        <li>The Tack Sharp</li>
-        <li>The Tangents Talkers</li>
-        <li>The Thought Criminals</li>
-        <li>The Tone Setters</li>
-        <li>The True Freshman</li>
+                <li>The Tack Sharp</li>
+                <li>The Tangents Talkers</li>
+                <li>The Thought Criminals</li>
+                <li>The Tone Setters</li>
+                <li>The True Freshman</li>
 
-        <li>The Unfortunately Errect Ear</li>
+                <li>The Unfortunately Errect Ear</li>
 
-        <li>The Yak Shaver Kings</li>
-        <li>The Yak Shavers</li>
-        <li>The Yoda Talking Ninjas</li>
+                <li>The Yak Shaver Kings</li>
+                <li>The Yak Shavers</li>
+                <li>The Yoda Talking Ninjas</li>
 
-        <li>Thelonious and Thanos</li>
-        <li>Titans Of The Past</li>
-        <li>Tone Curve</li>
-        <li>Tools and Knowledge</li>
-        <li>Trademark Symbol</li>
-        <li>Truckstop Restroom</li>
-        <li>Trust Chain</li>
-        <li>Two-Class Boosted Decision Tree</li>
+                <li>Thelonious and Thanos</li>
+                <li>Titans Of The Past</li>
+                <li>Tone Curve</li>
+                <li>Tools and Knowledge</li>
+                <li>Trademark Symbol</li>
+                <li>Truckstop Restroom</li>
+                <li>Trust Chain</li>
+                <li>Two-Class Boosted Decision Tree</li>
 
-        <li>Vegas Coffee</li>
+                <li>Vegas Coffee</li>
 
-        <li>War Music</li>
-        <li>WAR TUBA</li>
-        <li>War Rocket Ajax</li>
-        <li>Wheels First</li>
-        <li>Why Why Z</li>
-        <li>Wild Turkey Surprise</li>
-        <li>Willie and What's His Name</li>
-        <li>Wolf Spider</li>
+                <li>War Music</li>
+                <li>WAR TUBA</li>
+                <li>War Rocket Ajax</li>
+                <li>Wheels First</li>
+                <li>Why Why Z</li>
+                <li>Wild Turkey Surprise</li>
+                <li>Willie and What's His Name</li>
+                <li>Wolf Spider</li>
 
-        <li>Yak Shavers Local 151</li>
-        <li>You've Been Warned</li>
-      </ul>
-    </main>
-    <footer>
-      made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a>
-      <br />
-      who has a <a href="https://www.alanwsmith.com">website</a> and a
-      <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
-      among other <a href="https://links.alanwsmith.com">things</a>
-    </footer>
-  </body>
+                <li>Yak Shavers Local 151</li>
+                <li>You've Been Warned</li>
+            </ul>
+        </main>
+        <footer>
+            made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a>
+            <br />
+            who has a <a href="https://www.alanwsmith.com">website</a> and a
+            <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
+            among other <a href="https://links.alanwsmith.com">things</a>
+        </footer>
+    </body>
 </html>
