@@ -1,12 +1,12 @@
 Abstraction Lair
 Acid Blood
-An Open Letter
+Open Letter
 Arguing Epochs
-Armed with iPads
 Arthur And The Merlins
-Async CommBaby Groot Doodle
+Async Comm
+Baby Groot Doodle
 Baseline Syndrome
-Bible of Wines
+Wine Bible
 Big Four Oh
 Billion Laughs Attack
 Bipolar One
@@ -14,9 +14,10 @@ Block Sender
 Booze Box
 Breaking Changes
 Bum Slider
-BurnerCandles In The Kitchen
+Burner Candles
 Cartoon Violence
-Cautiously Optimistic
+The Cautiously Optimistic
+The Cautious
 Celebrity Nerd Professor
 Chaos Grenade
 Chocolate and Whiskey
@@ -27,48 +28,58 @@ Code Two
 Combo Curses
 Comparator Realm
 Concussion Protocol
-Craving CatharsisDate Time Zulu
-Dead Blow Hammers
-Decision Tree
-Deeper Ephiphany
-Defaults and Alts
+Catharsis Craving
+Date Time Zulu
+The Dead Blow Hammers
+The Decision Tree
+Deeper Epiphany
+Alt Defaults
 Disaster Recovery
 Double Hurricane and the Murder Hornets
 Dox Panic
 Dragon Launch
-Dramatic PetsEagle, Houston
-Edge Case
+Dramatic Pets
+Eagle, Houston
+The Edge Case
 Electric Super Sex
-Everything a SubscriptionFace Palm Picard
-Fail Whale
-Fans of Chaos
+Face Palm Picard
+Fail Wail
+The Chaos Fans
 ffs
-Fluid Space Calculator
+Space Calculator
 Frequency Illusion
-FTN (Fuck That Noise)Gjallarhorn
+FTN (Fuck That Noise)
+Gjallarhorn
 Ganesh's Garage
 Go / No-Go
-God Thunderbolt
+Thunderbolt God
 Grabthar's Hammer
-Greater Nerd Syndrome
-Guetzli’s Psychovisual ModelHangover Cheeseburger
+The Greater Nerd Syndrome
+The Psychovisuals
+Cheeseburger Hangover
 Here Be Dragons
-Hero's Journey
-Hot ChickenIdeas and Accidents
+Journey's Hero
+Hot Chicken
+Ideas and Accidents
 Ideas and Execution
+Accidental Ideas
 ii–V–I
-Ima Gonna
-Impossible Until
-Invasion of Piracy
-Inverse Octothorp Law
-Italian SpidermanJames-Luc Sky-Baggins
+Imma Gonna
+Until Impossible
+Piracy Invasion 
+Inverse Octothorp
+Italian Spiderman
+James-Luc Sky-Baggins
 Jeff Goldblum's Swagger
-Jump Puzzlekill -9Lack of Noise
+Jump Puzzle
+kill -9
+Lack of Noise
 Lazy River
-localhost 3000
-Looking for Language
-LSS (Like, Share, and Subscribe)
-Ludicrous SpeedMacGyver Mullet
+local 3000
+Language Lookers
+Like, Share, Subscribe
+Ludicrous Speed
+MacGyver Mullet
 Magnetar
 Make It Up In Volume
 Mermaid Diagrams
@@ -78,45 +89,53 @@ Mnemosyne
 Moments of Vertigo
 Moral Combat
 Multi-Pass
-Mute SwitchNegative Ghost Rider
-Nightmare Machine
-No More Nostalgia
+Mute Switch
+Negative Ghost Rider
+Machine Nightmare
+Nostalgia No More
 Nocebo Effect
 Nose Whistle
-Not A RobotOccident
+Not A Robot
+Occident
 October Light
 Off By One
+Off By Two
 Off Till January
 Old Man Moves
 Out Of Band
-Out of ScopePaging Humanity
+Out of Scope
+Paging Humanity
 Panic Sync
 Paranoia Fatigue
 Peanut Butter Vengeance
 Perceptual Motion Machine
-PhishStyx
+Fish Styx
 Please Read
 Post No Bills
-Presto Chango
+Presto Change-o
 Previous Preface
 Prince Hat
 Prosperity and Prosecution
-Python Time DeltaQuarantine HaircutRasters &amp; Vectors
-Razor Blade Apple
+Time Delta
+Quarantine Haircut
+Rasters &amp; Vectors
+The Vectors
+Apple Razor Blade 
 Real People. Not Actors.
 Recursive Acronym
-Remember the Busy Signal?
+Busy Signal Memories 
 Rinse, Repeat
 Risk Profile
-Roomba Knife FightSchool Night Drinking Club
+Roomba Knife Fight
+School Night Drinking Club
 Schrödinger Chat
 Scope Creep
 Sean Connery's Ghost
 Separation of Concerns
 Sex-O-Tron 9000
 Shameless Commerce Division
-Shebang #! (Pronounced `SHəˈbaNG SHəˈbaNG`)
-Shoots Flaming Balls
+Shebang #!
+The Flaming Balls Shooters
 Smash Factor
 Snake River Canyon
 Space Station Windows
@@ -125,86 +144,112 @@ Stay Tuned
 Steve Martin's Banjo
 Strength of Shadows
 Stuck On Mute
-sudo !! (pronounced Pseudo Bang Bang )
+sudo !! 
 Superman’s Socks
 Superseded Scientific Theory
 Suspicious Motives
-Swamp AssUtopia Target
-Temporary CyborgsThe Abstraction Boundaries
+Swamp Ass
+Utopia Target
+Temporary Cyborgs
+The Abstraction Boundaries
 The Abyss
 The Transparent Acoustic
 Adama Maneuver
 The Ain't No Jokes
 Alchemical Tradition
 The Antipsychotics
-The AuthorityThe Background Noise
+The Authority
+Background Noise
 The Bizarrely
-The Buzz ThresholdThe Church Coughers
+The Buzz Threshold
+The Church Coughers
 The Cocaine Manic
-The Conspiracy MechanicsThe Dead Dragonflies
-The Dead Jury Members
-The Deorbit Burn
+The Conspiracy Mechanics
+Dead Dragonflies
+Dead Members
+Dead Jury
+De-orbit Burn
 The Detritus
 The Diacritic Symbols
 The Dongle Suspense
-The Dress Code ViolationThe Editor Actions
+The Dress Code Violation
+The Editor Actions
 The Error Message
-The ExhaleThe Fireable Offense
-The Fourier Transform
-The Future HistoriansThe Gated Snares
+The Exhale
+The Fireable Offense
+Transform Fourier 
+The Future Historians
+The Gated Snares
 The Giant Spoon
-The Great HypothesisThe Hapax Legomenon
+The Great Hypothesis
+The Hapax Legomenon
 The Happy Path
-The Hard Stop
+Hard Stop
 The Hawthorne Effect
-The Helpful Hotkeys
-The Hermit TendenciesThe Idempotent
-The Infinite Back-Burner
-The Infinite Descent
+Helpful Hotkeys
+The Hermit Tendencies
+The Idempotent
+Infinite Back-Burner
+Infinite Descent
 The Infinite Scroll
 The Ink Drinkers
 The Intentionally Blank
-The Invisible Clichés
-The IrregardlessThe Jenga AssumptionsThe Known Quantities
-The Konami CodeThe Meme Variations
-The Memento Mori
+Invisible Clichés
+The Irregardless
+The Jenga Assumptions
+The Known Quantities
+Konami Code
+The Various Memes
+Memento Mori
 The Merely Marginal
 The More Specific
 The Music Truth
 The Mute Mistake
-The Mythical MonstersThe Naming Is Hard
+The Mythical Monsters
+The Hard Naming 
 The Neither Nor
-The New Shoe Ankle Blisters
-The Non-TrivialsThe Or Better SaidThe Past Close Sellers
+The Ankle Blisters
+The Non-Trivials
+The Better Said
+Past Close Sellers
 The Plucky Comic Relief
 The Polyphasic Nappers
 The Poor Proxies
-The Post Cold Loogies
-The PsychoacousticsThe Raw Text Blobs
+Post Cold Loogies
+The Psychoacoustics
+The Raw Text Blobs
 The Representative State Transfer
-The Reveloution Rain Out
-The Risk ProfileThe Safely Ejected
+Revolution Rain Out
+Risk Profile
+Safely Ejected
 The See Also
-The Slack Cops
 The Solo Twins
-The Sometimes Dark
-The Source Of Truth
+The Dark Sometimes
+Truth Source
 The String Literals
-The Subjective PleasuresThe Tack Sharp
-The Tangents Talkers
-The Thought Criminals
-The Tone Setters
-The True FreshmanThe Unfortunately Errect EarThe Yak Shaver Kings
+The Pleasures Subjective 
+The Tack Sharp
+Talkers Tangent 
+Thought Criminals
+Tone Setters
+True Freshman
+The Unfortunately Erect
+King Yak Shavers
 The Yak Shavers
-The Yoda Talking NinjasThelonious and Thanos
-Titans Of The Past
+Yoda Talking Ninjas
+Thanos Thelonious 
+Past Titans 
 Tone Curve
-Tools and Knowledge
+Knowledge Tools
 Trademark Symbol
 Truckstop Restroom
 Trust Chain
-Two-Class Boosted Decision TreeVegas CoffeeWar Music
-WAR TUBA
+Two-Class 
+Decision Tree
+The Tree Decision
+Vegas Coffee
+War Music
+War Tuba
 War Rocket Ajax
 Wheels First
 Why Why Z
@@ -223,3 +268,4 @@ Ascot
 The Slingshot Chickens
 Jelly Rage
 Poop Cult
+The Almost Unironic 
