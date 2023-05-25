@@ -1,102 +1,107 @@
 Abstraction Lair
 Acid Blood
-Open Letter
-Arguing Epochs
+Adama Maneuver
+The Alchemical Tradition
+Alt Defaults
+Apple Razor Blade 
+Epoch Arguments
 Arthur And The Merlins
+Ascot
 Async Comm
 Baby Groot Doodle
 Baseline Syndrome
-Wine Bible
-Big Four Oh
-Billion Laughs Attack
-Bipolar One
+The Billion Laughs Attack
 Block Sender
 Booze Box
 Breaking Changes
 Bum Slider
 Burner Candles
-Cartoon Violence
-The Cautiously Optimistic
-The Cautious
+The Busy Signal 
 Car Wash Selfie
+Cartoon Violence
+Cat Crocs
+Craving Catharsis 
 Celebrity Nerd Professor
 Chaos Grenade
-Chocolate and Whiskey
+Hangover Cheeseburger 
+Whiskey Chocolate 
 Church Giggles
 Code Dreamer
 Code Smell
 Code Two
 Combo Curses
-Comparator Realm
+Comparator Fusebox 
 Concussion Protocol
 Context Drift
-Catharsis Craving
 Date Time Zulu
-The Dead Blow Hammers
-The Decision Tree
-Deeper Epiphany
-Alt Defaults
+De-orbit Burn
+Dead Dragonflies
+Dead Jury
+Dead Members
+Decision Tree
+The Deeper Epiphany
 Disaster Recovery
 Double Hurricane and the Murder Hornets
 Dox Panic
 Dragon Launch
 Dramatic Pets
 Eagle, Houston
-The Edge Case
 Electric Super Sex
+FTN (Fuck That Noise)
 Face Palm Picard
 Fail Wail
-The Chaos Fans
-ffs
-Space Calculator
-Frequency Illusion
-FTN (Fuck That Noise)
+Styx Fish
+The Frequency Illusion
 Gjallarhorn
-Ganesh's Garage
 Go / No-Go
-Thunderbolt God
 Grabthar's Hammer
-The Greater Nerd Syndrome
-The Psychovisuals
-Cheeseburger Hangover
+Hard Stop
+Helpful Hotkeys
 Here Be Dragons
-Journey's Hero
+Hobbit Mode
 Hot Chicken
 Ideas and Accidents
-Ideas and Execution
-Accidental Ideas
-ii–V–I
 Imma Gonna
-Until Impossible
-Piracy Invasion 
+The Infinite Back-Burner
+The Infinite Descent
 Inverse Octothorp
+The Invisible Clichés
 Italian Spiderman
 James-Luc Sky-Baggins
-Jeff Goldblum's Swagger
+Goldblum Swagger
+Jelly Rage
+Journey's Hero
 Jump Puzzle
-kill -9
+King Yak Shavers
+Knowledge Tools
+Konami Code
 Lack of Noise
-Lazy River
-local 3000
 Language Lookers
+Lazy River
+Leeroy Jenkins
 Like, Share, Subscribe
 Ludicrous Speed
 MacGyver Mullet
+Machine Nightmare
 Magnetar
 Make It Up In Volume
+Maximum Chaos
+Memento Mori
 Mermaid Diagrams
 Meter of Fact
 Mind Physics
+Mirror Shine
 Mnemosyne
 Moments of Vertigo
 Moral Combat
+Morgic Borton
+Mullet With Headlights
 Multi-Pass
 Mute Switch
 Negative Ghost Rider
-Machine Nightmare
-Nostalgia No More
 Nocebo 
 Nose Whistle
+Nostalgia No More
 Not A Robot
 Occident
 October Light
@@ -104,30 +109,36 @@ Off By One
 Off By Two
 Off Till January
 Old Man Moves
+Open Letter
 Out Of Band
 Out of Scope
 Paging Humanity
 Panic Sync
 Paranoia Fatigue
+Past Close Sellers
+Past Titans 
 Peanut Butter Vengeance
 Perceptual Motion Machine
-Fish Styx
+Piracy Invasion 
+Playboi Descarti
 Please Read
+Poop Cult
+Post Cold Loogies
 Post No Bills
 Presto Change-o
 Previous Preface
 Prince Hat
 Prosperity and Prosecution
-Time Delta
 Quarantine Haircut
 Rasters &amp; Vectors
-The Vectors
-Apple Razor Blade 
 Real People. Not Actors.
 Recursive Acronym
-Busy Signal Memories 
+Restless Energy
+Revolution Rain Out
 Rinse, Repeat
+Risk Profile
 Roomba Knife Fight
+Safely Ejected
 School Night Drinking Club
 Schrödinger Chat
 Scope Creep
@@ -136,150 +147,132 @@ Separation of Concerns
 Sex-O-Tron 9000
 Shameless Commerce Division
 Shebang #!
-The Flaming Balls Shooters
 Smash Factor
+Snake Juice
 Snake River Canyon
+Space Calculator
 Space Station Windows
 Spider Lightning
 Stay Tuned
 Steve Martin's Banjo
 Strength of Shadows
 Stuck On Mute
-sudo !! 
 Superman’s Socks
 Superseded Scientific Theory
 Suspicious Motives
 Swamp Ass
-Utopia Target
+Talkers Tangent 
 Temporary Cyborgs
+Thanos Thelonious 
 The Abstraction Boundaries
 The Abyss
-The Transparent Acoustic
-Adama Maneuver
 The Ain't No Jokes
-Alchemical Tradition
+The Almost Unironic 
+The Ankle Blisters
 The Antipsychotics
 The Authority
-Background Noise
+The Backdoor Progression
+The Better Said
 The Bizarrely
 The Buzz Threshold
+The Cautious
+The Cautiously Optimistic
+The Chaos Fans
 The Church Coughers
 The Cocaine Manic
 The Conspiracy Mechanics
-Dead Dragonflies
-Dead Members
-Dead Jury
-De-orbit Burn
+The Dark Sometimes
+The Dead Blow Hammers
+The Dead Jellies
+The Decision Tree
 The Detritus
 The Diacritic Symbols
 The Dongle Suspense
 The Dress Code Violation
+The Edge Case
 The Editor Actions
 The Error Message
 The Exhale
+The Fast Facades 
 The Fireable Offense
-Transform Fourier 
+The Flaming Balls Shooters
 The Future Historians
 The Gated Snares
 The Giant Spoon
 The Great Hypothesis
+The Greater Nerd Syndrome
 The Hapax Legomenon
 The Happy Path
-Hard Stop
+The Hard Naming 
 The Hawthorne Effect
-Helpful Hotkeys
 The Hermit Tendencies
 The Idempotent
-Infinite Back-Burner
-Infinite Descent
 The Infinite Scroll
 The Ink Drinkers
 The Intentionally Blank
-Invisible Clichés
 The Irregardless
 The Jenga Assumptions
 The Known Quantities
-Konami Code
-The Various Memes
-Memento Mori
+The Long Familiars
 The Merely Marginal
 The More Specific
 The Music Truth
 The Mute Mistake
 The Mythical Monsters
-The Hard Naming 
 The Neither Nor
-The Ankle Blisters
 The Non-Trivials
-The Better Said
-Past Close Sellers
+The Pleasures Subjective 
 The Plucky Comic Relief
 The Polyphasic Nappers
 The Poor Proxies
-Post Cold Loogies
 The Psychoacoustics
+The Psychovisuals
 The Raw Text Blobs
 The Representative State Transfer
-Revolution Rain Out
-Risk Profile
-Safely Ejected
+The Risky Mouth
 The See Also
+The Slingshot Chickens
 The Solo Twins
-The Dark Sometimes
-Truth Source
 The String Literals
-The Pleasures Subjective 
 The Tack Sharp
-Talkers Tangent 
-Thought Criminals
-Tone Setters
-True Freshman
-The Unfortunately Erect
-King Yak Shavers
-The Yak Shavers
-Yoda Talking Ninjas
-Thanos Thelonious 
-Past Titans 
-Tone Curve
-Knowledge Tools
-Trademark Symbol
-Truckstop Restroom
-Trust Chain
-Two-Class 
-Decision Tree
+The Transparent Acoustic
 The Tree Decision
+The Unfortunately Erect
+The Useful MacGuffins
+The Various Memes
+The Vectors
+The Yak Shavers
+Thought Criminals
+Thunderbolt God
+Time Delta
+Tone Curve
+Tone Setters
+The Trademark Symbol
+Transform Fourier 
+Truckstop Restroom
+The True Freshman
+Trust Chain
+Truth Source
+Two-Class 
+Until Impossible
+Utopia Target
 Vegas Coffee
 War Music
-War Tuba
 War Rocket Ajax
+War Tuba
+Warchalk
+Wave Dash
 Wheels First
 Why Why Z
 Wild Turkey Surprise
 Willie and What's His Name
+Wine Bible
 Wolf Spider
 Yak Shavers Local 151
-You've Been Warned
-Wave Dash
-Mirror Shine
-Snake Juice
-Maximum Chaos
-Mullet With Headlights
-Playboi Descarti
-Ascot
-The Slingshot Chickens
-Jelly Rage
-Poop Cult
-The Almost Unironic 
-Hobbit Mode
-The Backdoor Progression
-Leeroy Jenkins
-The Dead Jellies
-Cat Crocs
-Morgic Borton
-The Risky Mouth
-The Long Familiars
-The Fast Facades 
-The Useful MacGuffins
 Yak Stack Attack
-Warchalk
-Restless Energy
+Yoda Talking Ninjas
+ii–V–I
+kill -9
+local 3k
+sudo !! 
+Noise Floor
