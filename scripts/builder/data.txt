@@ -280,3 +280,4 @@ kill -9
 local 3k
 sudo !! 
 Noise Floor
+Vendor Lock-In
