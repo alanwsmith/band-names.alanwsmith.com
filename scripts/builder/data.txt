@@ -281,3 +281,4 @@ local 3k
 sudo !! 
 Noise Floor
 Vendor Lock-In
+Schrödinger Fanta
