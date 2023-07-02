@@ -1,19 +1,17 @@
-Abstraction Lair
-Acid Blood
+Blood Acid
 Adama Maneuver
-The Alchemical Tradition
 Alt Defaults
 Apple Razor Blade 
-Epoch Arguments
+The Epoch Arguments
 Arthur And The Merlins
 Ascot
 Async Comm
 Baby Groot Doodle
-Baseline Syndrome
-The Billion Laughs Attack
+The Baseline Syndrome
+Billion Laughs Attack
 Block Sender
 Booze Box
-Breaking Changes
+The Breaking Changes
 Bum Slider
 Burner Candles
 The Busy Signal 
@@ -22,12 +20,11 @@ Cartoon Violence
 Cat Crocs
 Craving Catharsis 
 Crime School
-Celebrity Nerd Professor
+Celebrity Professor
 Chaos Grenade
 Hangover Cheeseburger 
 Whiskey Chocolate 
-Church Giggles
-Code Dreamer
+The Church Giggles
 Code Smell
 Code Two
 Combo Curses
@@ -35,60 +32,56 @@ Comparator Fusebox
 Concussion Protocol
 Context Drift
 Date Time Zulu
-De-orbit Burn
-Dead Dragonflies
+The De-orbit Burn
+The Dead Dragonflies
 Dead Jury
-Dead Members
 Decision Tree
-The Deeper Epiphany
+Deeper Epiphany
 Disaster Recovery
 Double Hurricane and the Murder Hornets
 Dox Panic
 Dragon Launch
-Dramatic Pets
+The Dramatic Pets
 Eagle, Houston
 Electric Super Sex
-FTN (Fuck That Noise)
+Fuck That Noise
 Face Palm Picard
 Fail Wail
 Styx Fish
-The Frequency Illusion
+Frequency Illusion
 Gjallarhorn
 Go / No-Go
 Grabthar's Hammer
 Hard Stop
-Helpful Hotkeys
+The Helpful Hotkeys
 Here Be Dragons
 Hobbit Mode
 Hot Chicken
 Ideas and Accidents
 Imma Gonna
-The Infinite Back-Burner
-The Infinite Descent
+Infinite Descent
 Inverse Octothorp
-The Invisible Clichés
+Invisible Clichés
 Italian Spiderman
 James-Luc Sky-Baggins
-Goldblum Swagger
+The Goldblum Swagger
 Jelly Rage
 Journey's Hero
 Jump Puzzle
-King Yak Shavers
-Knowledge Tools
+Yak Shavers Kink
+The Knowledge Tools
 Konami Code
-Lack of Noise
 Language Lookers
 Lazy River
 Leeroy Jenkins
 Like, Share, Subscribe
 Ludicrous Speed
-MacGyver Mullet
-Machine Nightmare
+The MacGyver Mullet
 Magnetar
 Make It Up In Volume
 Maximum Chaos
 Memento Mori
-Mermaid Diagrams
+The Mermaid Diagrams
 Meter of Fact
 Mind Physics
 Mirror Shine
@@ -96,7 +89,7 @@ Mnemosyne
 Moments of Vertigo
 Moral Combat
 Morgic Borton
-Mullet With Headlights
+Mullet Headlights
 Multi-Pass
 Mute Switch
 Negative Ghost Rider
@@ -107,99 +100,87 @@ Not A Robot
 Occident
 October Light
 Off By One
-Off By Two
-Off Till January
 Old Man Moves
-Open Letter
+The Open Letter
 Out Of Band
 Out of Scope
-Paging Humanity
 Panic Sync
 Paranoia Fatigue
-Past Close Sellers
-Past Titans 
+The Past Close Sellers
+Former Titans 
 Peanut Butter Vengeance
-Perceptual Motion Machine
+The Perceptual Motion Machine
 Piracy Invasion 
 Playboi Descarti
 Please Read
 Poop Cult
 Port Clash
-Post Cold Loogies
+The Post Cold Loogies
 Post No Bills
 Presto Change-o
 Previous Preface
 Prince Hat
-Prosperity and Prosecution
+The Prosperity 
 Quarantine Haircut
-Rasters &amp; Vectors
+Raster Vectors
 Real People. Not Actors.
-Recursive Acronym
+The Recursive Acronym
 Restless Energy
 Revolution Rain Out
 Rinse, Repeat
 Risk Profile
-Roomba Knife Fight
-Safely Ejected
-School Night Drinking Club
+The Roomba Knife Fight
+The School Night Drinking Club
 Schrödinger Chat
 Scope Creep
 Sean Connery's Ghost
 Separation of Concerns
 Sex-O-Tron 9000
 Sex Socks
-Shameless Commerce Division
-Shebang #!
+The Shameless Commerce Division
+#! (pronunced shabang)
 Smash Factor
 The Smooth Jazz Situation
 Snake Juice
 Snake River Canyon
 Space Calculator
-Space Station Windows
+The Space Station Windows
 Spider Lightning
-Stay Tuned
 Steve Martin's Banjo
 Strength of Shadows
-Stuck On Mute
 Superman’s Socks
-Superseded Scientific Theory
 Suspicious Motives
 Swamp Ass
 Talkers Tangent 
-Temporary Cyborgs
+The Temporary Cyborgs
 Thanos Thelonious 
-The Abstraction Boundaries
+Abstraction Boundaries
 The Abyss
 The Ain't No Jokes
-The Almost Unironic 
-The Ankle Blisters
+Ankle Blisters
 The Antipsychotics
 The Authority
-The Backdoor Progression
+Backdoor Progression
 The Better Said
-The Bizarrely
 The Buzz Threshold
-The Cautious
-The Cautiously Optimistic
-The Chaos Fans
+The Optimistic
+Chaos Fans
 The Church Coughers
 The Cocaine Manic
-The Conspiracy Mechanics
-The Dark Sometimes
+Conspiracy Mechanics
+Dark Sometimes
 The Dead Blow Hammers
 The Dead Jellies
-The Decision Tree
-The Detritus
-The Diacritic Symbols
-The Dongle Suspense
-The Dress Code Violation
+Decision Tree
+Detritus
+Diacritic Symbiosis
+The Dress Code Violations
 The Edge Case
-The Editor Actions
 The Error Message
-The Exhale
+Exhale
 The Fast Facades 
 The Fireable Offense
-The Flaming Balls Shooters
+The Flaming Balls 
 The Future Historians
 The Gated Snares
 The Giant Spoon
@@ -207,12 +188,12 @@ The Great Hypothesis
 The Greater Nerd Syndrome
 The Hapax Legomenon
 The Happy Path
-The Hard Naming 
-The Hawthorne Effect
+Hard Naming 
+Hawthorne Effect
 The Hermit Tendencies
 The Idempotent
-The Infinite Scroll
-The Ink Drinkers
+Infinite Scroll
+Ink Drinkers
 The Intentionally Blank
 The Irregardless
 The Jenga Assumptions
@@ -220,46 +201,42 @@ The Known Quantities
 The Long Familiars
 The Merely Marginal
 The More Specific
-The Music Truth
 The Mute Mistake
 The Mythical Monsters
 The Neither Nor
 The Non-Trivials
 The Pleasures Subjective 
-The Plucky Comic Relief
+Plucky Comic Relief
 The Polyphasic Nappers
-The Poor Proxies
+Poor Proxies
 The Psychoacoustics
 The Psychovisuals
-The Raw Text Blobs
+Raw Text Blobs
 The Representative State Transfer
 The Risky Mouth
 The See Also
-The Slingshot Chickens
+Slingshot Chickens
 The Solo Twins
 The String Literals
-The Tack Sharp
+Tack Sharp
 The Transparent Acoustic
-The Tree Decision
+The Decision Tree
 The Unfortunately Erect
-The Useful MacGuffins
-The Various Memes
+Useful MacGuffins
+Various Memes
 The Vectors
 The Yak Shavers
 Thought Criminals
-Thunderbolt God
-Time Delta
+God Thunderbolt 
+Delta Time
 Tone Curve
-Tone Setters
 The Trademark Symbol
 Transform Fourier 
 Truckstop Restroom
 The True Freshman
 Trust Chain
-Truth Source
-Two-Class 
 Until Impossible
-Utopia Target
+The Utopia Target
 Vegas Coffee
 War Music
 War Rocket Ajax
@@ -274,12 +251,12 @@ Wine Bible
 Wolf Spider
 Yak Shavers Local 151
 Yak Stack Attack
-Yoda Talking Ninjas
+The Yoda Talking Ninjas
 ii–V–I
 kill -9
 local 3k
-sudo !! 
+sudo !! (pronounced sudo bang bang)
 Noise Floor
-Vendor Lock-In
+The Vendor Lock-In
 Schrödinger Fanta
 atmo mod
