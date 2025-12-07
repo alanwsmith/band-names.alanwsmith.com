@@ -1,0 +1,484 @@
+2025-10-07T14:25:39.590083Z|I|src/bin/ssb-0-6-x.rs|26
+Initilizing
+2025-10-07T14:25:39.590301Z|I|src/bin/ssb-0-6-x.rs|29
+Found port for web server: 5444
+2025-10-07T14:25:39.590945Z|I|src/watcher/mod.rs|27
+Starting watcher
+2025-10-07T14:25:39.591014Z|I|src/server/mod.rs|28
+Starting web server
+2025-10-07T14:25:39.591020Z|I|src/builder/mod.rs|159
+Starting builder
+2025-10-07T14:25:39.591337Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:25:39.593503Z|I|/Users/alan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/watchexec-8.0.1/src/sources/fs.rs|159
+obtaining pathset [3mconfig_pathset[0m[2m=[0m[WatchedPath { path: "content", recursive: true }, WatchedPath { path: "support", recursive: true }]
+2025-10-07T14:25:39.598744Z|E|/Users/alan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/watchexec-8.0.1/src/sources/fs.rs|212
+notify watch() error [3merr[0m[2m=[0mError { kind: PathNotFound, paths: ["support"] }
+2025-10-07T14:25:39.598769Z|E|/Users/alan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/watchexec-8.0.1/src/watchexec.rs|243
+runtime error [3merr[0m[2m=[0mNative fs watcher error
+2025-10-07T14:25:39.606990Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:25:39.609813Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:25:39.611690Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:25:39.614306Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:25:39.616116Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:11.335454Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:11.343873Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:11.344122Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:11.344513Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:11.346328Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:11.347773Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:21.389020Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:21.397708Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:21.398157Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:21.399169Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:21.402652Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:21.404436Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:25.407800Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:25.418091Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:25.418408Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:25.419018Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:25.421064Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:25.422333Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:25.462187Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:25.468747Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:25.468954Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:25.469223Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:25.471632Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:25.473013Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:30.800952Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:30.819873Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:30.820162Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:30.820444Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:30.822025Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:30.823589Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:26:35.528204Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:26:35.551619Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:26:35.551806Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:26:35.551979Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:26:35.553477Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:26:35.554713Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:27:09.930807Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:27:09.951773Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:27:09.951969Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:27:09.952164Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:27:09.953488Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:27:09.954550Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:28:01.382993Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:28:01.396885Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:28:01.397189Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:28:01.397479Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:28:01.399489Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:28:01.400382Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:28:14.904810Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:28:14.932692Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:28:14.933137Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:28:14.933782Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:28:14.936141Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:28:14.937544Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:28:44.727112Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:28:44.758032Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:28:44.758314Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:28:44.758969Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:28:44.761944Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:28:44.763883Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:28:49.494179Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:28:49.519759Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:28:49.520012Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:28:49.520348Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:28:49.528970Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:28:49.538204Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:28:59.444040Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:28:59.468546Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:28:59.468798Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:28:59.469156Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:28:59.470912Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:28:59.471998Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:29:09.231780Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:29:09.254378Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:29:09.254624Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:29:09.254943Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:29:09.257161Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:29:09.259653Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:29:45.061019Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:29:45.074970Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:29:45.075579Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:29:45.076519Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:29:45.081083Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:29:45.082223Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:32:35.746460Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:32:35.763316Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:32:35.763581Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:32:35.764006Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:32:35.765556Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:32:35.766538Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:36:15.237998Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:36:15.255659Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:36:15.255897Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:36:15.256769Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:36:15.259310Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:36:15.261289Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:36:17.406989Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:36:17.438285Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:36:17.438565Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:36:17.439020Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:36:17.440803Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:36:17.441820Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:37:04.869655Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:37:04.885510Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:37:04.885724Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:37:04.886088Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:37:04.888325Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:37:04.889566Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:39:03.719659Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:39:03.759288Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:39:03.759612Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:39:03.760140Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:39:03.762831Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:39:03.764618Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:39:24.726276Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:39:24.773618Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:39:24.773948Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:39:24.774386Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:39:24.778776Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:39:24.780562Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:41:48.094557Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:41:48.116752Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:41:48.117083Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:41:48.117523Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:41:48.120423Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:41:48.122636Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:45:03.812002Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:45:03.824681Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:45:03.824990Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:45:03.825639Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:45:03.828350Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:45:03.829518Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:45:30.627541Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:45:30.638141Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:45:30.638434Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:45:30.638908Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:45:30.640644Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:45:30.641650Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:45:54.963713Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:45:54.975989Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:45:54.976250Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:45:54.976576Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:45:54.978324Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:45:54.979392Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:46:26.940617Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:46:26.952341Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:46:26.952579Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:46:26.952959Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:46:26.954444Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:46:26.956638Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:46:28.116828Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:46:28.145174Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:46:28.145524Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:46:28.145894Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:46:28.147382Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:46:28.148882Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:47:39.729987Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:47:39.744462Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:47:39.744707Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:47:39.745058Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:47:39.746508Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:47:39.747502Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:49:14.437114Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:49:14.465495Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:49:14.465739Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:49:14.466062Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:49:14.467459Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:49:14.468337Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:51:35.627990Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:51:35.638849Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:51:35.639075Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:51:35.639515Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:51:35.640913Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:51:35.641844Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:52:48.970138Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:52:48.980601Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:52:48.980847Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:52:48.981324Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:52:48.982919Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:52:48.984175Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:54:46.446233Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:54:46.457812Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:54:46.458072Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:54:46.458519Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:54:46.459908Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:54:46.461611Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:57:02.030867Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:57:02.052143Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:57:02.052583Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:57:02.053325Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:57:02.055344Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:57:02.058064Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:57:28.917688Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:57:28.929366Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:57:28.929574Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:57:28.929890Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:57:28.931436Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:57:28.932271Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:57:58.400080Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:57:58.428321Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:57:58.428528Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:57:58.428800Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:57:58.430663Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:57:58.431583Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T14:59:25.922280Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T14:59:25.940551Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T14:59:25.940793Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T14:59:25.941572Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T14:59:25.944520Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T14:59:25.946370Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T15:00:45.516610Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T15:00:45.535707Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T15:00:45.536123Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T15:00:45.536811Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T15:00:45.538988Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T15:00:45.541180Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T15:03:48.832953Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T15:03:48.846651Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T15:03:48.846934Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T15:03:48.847329Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T15:03:48.848553Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T15:03:48.849626Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.
+2025-10-07T15:03:53.824902Z|I|src/builder/mod.rs|40
+Building site on port 5444.
+2025-10-07T15:03:53.832702Z|I|src/builder/mod.rs|49
+Transforming HTML.
+2025-10-07T15:03:53.832934Z|I|src/builder/mod.rs|182
+Loading data.
+2025-10-07T15:03:53.833252Z|I|src/builder/mod.rs|51
+Copying files.
+2025-10-07T15:03:53.834441Z|I|src/builder/mod.rs|53
+Copying JavaScript Files.
+2025-10-07T15:03:53.835316Z|I|src/builder/mod.rs|59
+Build complete. Reloading browser on port 5444.

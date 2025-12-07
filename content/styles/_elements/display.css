@@ -1,0 +1,6 @@
+.display {
+  background-color: var(--faded-default-color);
+  border-radius: var(--default-border-radius);
+  padding: var(--xxlarge-padding);
+  text-align: center;
+}

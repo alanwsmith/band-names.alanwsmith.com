@@ -1,0 +1,286 @@
+#
+#! (pronunced shabang)
+A
+Abstraction Boundaries
+The Abyss
+The Adama Maneuver
+Alt Defaults
+Ankle Blisters
+The Antipsychotics
+Apple Razor Blade
+Arthur And The Merlins
+Ascot
+Async Comm
+atmo mod
+The Authority
+B
+Baby Groot Doodle
+Backdoor Progression
+The Baseline Syndrome
+The Better Said
+Billion Laughs Attack
+Block Sender
+Blood Acid
+Booze Box
+The Breaking Changes
+Bum Slider
+Burner Candles
+The Busy Signal
+The Buzz Threshold
+C
+Car Wash Selfie
+Cartoon Violence
+Cat Crocs
+Celebrity Professor
+Chaos Fans
+Chaos Grenade
+The Church Coughers
+The Church Giggles
+The Cocaine Manic
+Code Smell
+Code Two
+Combo Curses
+Comparator Fusebox
+Concussion Protocol
+Conspiracy Mechanics
+Context Drift
+Craving Catharsis
+Crime School
+D
+Dark Sometimes
+Date Time Zulu
+The De-orbit Burn
+The Dead Blow Hammers
+The Dead Dragonflies
+The Dead Jellies
+Dead Jury
+Decision Tree
+Decision Tree
+The Decision Tree
+Deeper Epiphany
+Delta Time
+Detritus
+Diacritic Symbiosis
+Disaster Recovery
+Double Hurricane and the Murder Hornets
+Dox Panic
+Dragon Launch
+The Dramatic Pets
+The Dress Code Violations
+E
+Eagle, Houston
+The Edge Case
+Electric Super Sex
+The Epoch Arguments
+The Error Message
+Exhale
+F
+Face Palm Picard
+Fail Wail
+The Fast Facades
+The Fireable Offense
+The Flaming Balls
+Former Titans
+Frequency Illusion
+Fuck That Noise
+The Future Historians
+G
+The Gated Snares
+The Giant Spoon
+Gjallarhorn
+Go / No-Go
+God Thunderbolt
+The Goldblum Swagger
+Grabthar's Hammer
+The Great Hypothesis
+The Greater Nerd Syndrome
+H
+Hangover Cheeseburger
+The Hapax Legomenon
+The Happy Path
+Hard Naming
+Hard Stop
+Hawthorne Effect
+The Helpful Hotkeys
+Here Be Dragons
+The Hermit Tendencies
+Hobbit Mode
+Hot Chicken
+I
+Ideas and Accidents
+The Idempotent
+ii–V–I
+Imma Gonna
+Infinite Descent
+Infinite Scroll
+Ink Drinkers
+The Intentionally Blank
+Inverse Octothorp
+Invisible Clichés
+The Irregardless
+Italian Spiderman
+J
+James-Luc Sky-Baggins
+Jelly Rage
+The Jenga Assumptions
+Journey's Hero
+Jump Puzzle
+K
+kill -9
+The Knowledge Tools
+The Known Quantities
+Konami Code
+L
+Language Lookers
+Lazy River
+Leeroy Jenkins
+Like, Share, Subscribe
+local 3k
+The Long Familiars
+Ludicrous Speed
+M
+The MacGyver Mullet
+Magnetar
+Make It Up In Volume
+Maximum Chaos
+Memento Mori
+The Merely Marginal
+The Mermaid Diagrams
+Meter of Fact
+Mind Physics
+Mirror Shine
+Mnemosyne
+Moments of Vertigo
+Moral Combat
+The More Specific
+Morgic Borton
+Mullet Headlights
+Multi-Pass
+The Mute Mistake
+Mute Switch
+The Mythical Monsters
+N
+Negative Ghost Rider
+The Neither Nor
+Nocebo
+Noise Floor
+The Non-Trivials
+Nose Whistle
+Nostalgia No More
+Not A Robot
+O
+Occident
+October Light
+Off By One
+Old Man Moves
+The Open Letter
+The Optimistic
+Out Of Band
+Out of Scope
+P
+Panic Sync
+Paranoia Fatigue
+The Past Close Sellers
+Peanut Butter Vengeance
+The Perceptual Motion Machine
+Piracy Invasion
+Playboi Descarti
+Please Read
+The Pleasures Subjective
+Plucky Comic Relief
+The Polyphasic Nappers
+Poop Cult
+Poor Proxies
+Port Clash
+The Post Cold Loogies
+Post No Bills
+Presto Change-o
+Previous Preface
+Prince Hat
+The Prosperity
+The Psychoacoustics
+The Psychovisuals
+Q
+Quarantine Haircut
+R
+Raster Vectors
+Raw Text Blobs
+Real People. Not Actors.
+The Recursive Acronym
+The Representative State Transfer
+Restless Energy
+Revolution Rain Out
+Rinse, Repeat
+Risk Profile
+The Risky Mouth
+The Roomba Knife Fight
+S
+The School Night Drinking Club
+Schrödinger Chat
+Schrödinger Fanta
+Scope Creep
+Sean Connery's Ghost
+The See Also
+Separation of Concerns
+Sex Socks
+Sex-O-Tron 9000
+The Shameless Commerce Division
+Slingshot Chickens
+Smash Factor
+The Smooth Jazz Situation
+Snake Juice
+Snake River Canyon
+The Solo Twins
+Space Calculator
+The Space Station Windows
+Spider Lightning
+Steve Martin's Banjo
+Strength of Shadows
+The String Literals
+Styx Fish
+sudo !! (pronounced sudo bang bang)
+Superman’s Socks
+Suspicious Motives
+Swamp Ass
+T
+Tack Sharp
+Talkers Tangent
+The Temporary Cyborgs
+Thanos Thelonious
+Thought Criminals
+Tone Curve
+The Trademark Symbol
+Transform Fourier
+The Transparent Acoustic
+Truckstop Restroom
+The True Freshman
+Trust Chain
+U
+The Unfortunately Erect
+Until Impossible
+Useful MacGuffins
+The Utopia Target
+V
+Various Memes
+The Vectors
+Vegas Coffee
+The Vendor Lock-In
+W
+War Music
+War Rocket Ajax
+War Tuba
+Warchalk
+Wave Dash
+Wheels First
+Whiskey Chocolate
+Why Why Z
+Wild Turkey Surprise
+Willie and What's His Name
+Wine Bible
+Wolf Spider
+Y
+The Yak Shavers
+Yak Shavers Kink
+Yak Shavers Local 151
+Yak Stack Attack
+The Yoda Talking Ninjas

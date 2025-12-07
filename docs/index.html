@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+:root {
+  --light--background-color: oklch(0.9634 0.02097 105.642);
+  --light--default-color: oklch(0.1951 0.23 105.642);
+  --light--faded-default-color: oklch(0.1951 0.23 105.642 / 0.653);
+  --light--heading-color: oklch(0.165 0.18556 225.642);
+  --light--faded-heading-color: oklch(0.165 0.18556 225.642 / 0.18);
+  --light--link-color: oklch(0.5537 0.15458 225.642);
+  --light--faded-link-color: oklch(0.5537 0.15458 225.642 / 0.604);
+  --light--accent-color: oklch(0.4986 0.10843 165.642);
+  --light--faded-accent-color: oklch(0.4986 0.10843 165.642 / 0.28);
+  --light--info-color: oklch(0.645 0.09691077318165202 345.642);
+  --light--faded-info-color: oklch(0.645 0.09691077318165202 345.642 / 0.376);
+  --dark--background-color: oklch(0.2124 0.0298 254.092);
+  --dark--default-color: oklch(0.8747 0.04454 254.092);
+  --dark--faded-default-color: oklch(0.8747 0.04454 254.092 / 0.157);
+  --dark--heading-color: oklch(0.6705 0.12874 254.092);
+  --dark--faded-heading-color: oklch(0.6705 0.12874 254.092 / 0.308);
+  --dark--link-color: oklch(0.7299 0.07889 14.091999999999985);
+  --dark--faded-link-color: oklch(0.7299 0.07889 14.091999999999985 / 0.609);
+  --dark--accent-color: oklch(0.7338 0.06558 194.09199999999998);
+  --dark--faded-accent-color: oklch(0.7338 0.06558 194.09199999999998 / 0.567);
+  --dark--info-color: oklch(0.4351 0.16022 74.09199999999998);
+  --dark--faded-info-color: oklch(0.4351 0.16022 74.09199999999998 / 0.359);
+  --hc-light--background-color: oklch(1 0.06752 259.652);
+  --hc-light--default-color: oklch(0.0995 0.23 259.652);
+  --hc-light--faded-default-color: oklch(0.0995 0.23 259.652 / 0.242);
+  --hc-light--heading-color: oklch(0.6217704856122922 0.08831300417260277 319.652);
+  --hc-light--faded-heading-color: oklch(0.6217704856122922 0.08831300417260277 319.652 / 0.572);
+  --hc-light--link-color: oklch(0.5245 0.15006780734890438 259.652);
+  --hc-light--faded-link-color: oklch(0.5245 0.15006780734890438 259.652 / 0.437);
+  --hc-light--accent-color: oklch(0.3227 0.19753 19.651999999999987);
+  --hc-light--faded-accent-color: oklch(0.3227 0.19753 19.651999999999987 / 0.318);
+  --hc-light--info-color: oklch(0.5586547900477358 0.169058911353704 199.65200000000004);
+  --hc-light--faded-info-color: oklch(0.5586547900477358 0.169058911353704 199.65200000000004 / 0.34);
+  --hc-dark--background-color: oklch(0 0.20706934229967444 142);
+  --hc-dark--default-color: oklch(1 0.20411 82);
+  --hc-dark--faded-default-color: oklch(1 0.20411 82 / 0.385);
+  --hc-dark--heading-color: oklch(0.9552 0.09830629780740073 142);
+  --hc-dark--faded-heading-color: oklch(0.9552 0.09830629780740073 142 / 0.697);
+  --hc-dark--link-color: oklch(0.962 0.004698125519856717 262);
+  --hc-dark--faded-link-color: oklch(0.962 0.004698125519856717 262 / 0.628);
+  --hc-dark--accent-color: oklch(0.874 0.23 142);
+  --hc-dark--faded-accent-color: oklch(0.874 0.23 142 / 0.374);
+  --hc-dark--info-color: oklch(0.6882 0.21203825105953206 22);
+  --hc-dark--faded-info-color: oklch(0.6882 0.21203825105953206 22 / 0.418);
+}
+:root {
+  --background-color: var(--background-color--switch, var(--light--background-color));
+  --default-color: var(--default-color--switch, var(--light--default-color));
+  --faded-default-color: var(--faded-default-color--switch, var(--light--faded-default-color));
+  --heading-color: var(--heading-color--switch, var(--light--heading-color));
+  --faded-heading-color: var(--faded-heading-color--switch, var(--light--faded-heading-color));
+  --link-color: var(--link-color--switch, var(--light--link-color));
+  --faded-link-color: var(--faded-link-color--switch, var(--light--faded-link-color));
+  --accent-color: var(--accent-color--switch, var(--light--accent-color));
+  --faded-accent-color: var(--faded-accent-color--switch, var(--light--faded-accent-color));
+  --info-color: var(--info-color--switch, var(--light--info-color));
+  --faded-info-color: var(--faded-info-color--switch, var(--light--faded-info-color));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: var(--background-color--switch, var(--dark--background-color));
+    --default-color: var(--default-color--switch, var(--dark--default-color));
+    --faded-default-color: var(--faded-default-color--switch, var(--dark--faded-default-color));
+    --heading-color: var(--heading-color--switch, var(--dark--heading-color));
+    --faded-heading-color: var(--faded-heading-color--switch, var(--dark--faded-heading-color));
+    --link-color: var(--link-color--switch, var(--dark--link-color));
+    --faded-link-color: var(--faded-link-color--switch, var(--dark--faded-link-color));
+    --accent-color: var(--accent-color--switch, var(--dark--accent-color));
+    --faded-accent-color: var(--faded-accent-color--switch, var(--dark--faded-accent-color));
+    --info-color: var(--info-color--switch, var(--dark--info-color));
+    --faded-info-color: var(--faded-info-color--switch, var(--dark--faded-info-color));
+  }
+}</style><script>
+const baseParams = {
+  "border-radius": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY); }`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      `0.1rem`,
+      `0.2rem`,
+      `0.3rem`,
+      `0.4rem`,
+      `0.5rem`,
+      `0.6rem`,
+      `0.7rem`,
+      `0.8rem`,
+      `0.9rem`,
+    ],
+  },
+  "flow": {
+    classString:
+      `.SIZE-KEY > :where(:not(:first-child)) { margin-top: var(--flow-space, var(--SIZE-KEY)); }`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      `0.2rem`,
+      `0.3rem`,
+      `0.5rem`,
+      `0.7rem`,
+      `1.0rem`,
+      `1.2rem`,
+      `1.2rem`,
+      `1.4rem`,
+      `1.6rem`,
+    ],
+  },
+  "font-size": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY);}`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      "clamp(0.58rem, calc(0.57rem + 0.03vw), 0.6rem)",
+      "clamp(0.68rem, calc(0.67rem + 0.03vw), 0.7rem)",
+      "clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem)",
+      "clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem)",
+      "clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem)",
+      "clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem)",
+      "clamp(1.32rem, calc(1.5rem + 0.58vw), 1.65rem)",
+      "clamp(1.84rem, calc(1.77rem + 0.87vw), 2.14rem)",
+      "clamp(2.8rem, calc(2rem + 1.25vw), 3.1rem)",
+    ],
+  },
+  "font-weight": {
+    classString: `.KEY-VALUE { KEY: var(--KEY-VALUE);}`,
+    varString: `--KEY-VALUE: VALUE;`,
+    values: [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+    ],
+  },
+  "gap": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY);}`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      `0.1rem`,
+      `0.2rem`,
+      `0.4rem`,
+      `0.6rem`,
+      `0.8rem`,
+      `1.0rem`,
+      `1.4rem`,
+      `1.9rem`,
+      `2.2rem`,
+    ],
+  },
+  "line-height": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY);}`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.45,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+    ],
+  },
+  "margin": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY);}`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      `0.1rem`,
+      `0.2rem`,
+      `0.4rem`,
+      `0.6rem`,
+      `0.8rem`,
+      `1.0rem`,
+      `1.4rem`,
+      `1.9rem`,
+      `2.2rem`,
+    ],
+  },
+  "padding": {
+    classString: `.SIZE-KEY { KEY: var(--SIZE-KEY);}`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      `0.1rem`,
+      `0.2rem`,
+      `0.4rem`,
+      `0.6rem`,
+      `0.8rem`,
+      `1.0rem`,
+      `1.3rem`,
+      `1.9rem`,
+      `2.5rem`,
+    ],
+  },
+  "text-align": {
+    classString: `.KEY-VALUE { KEY: VALUE; }`,
+    varString: `--KEY-VALUE: VALUE;`,
+    values: ["center", "end", "justify", "left", "right", "start"],
+  },
+  "width": {
+    classString: `.SIZE-width { width: var(--SIZE-width); }
+        .SIZE-min-width { min-width: var(--SIZE-width); }
+        .SIZE-max-width { max-width: var(--SIZE-width); }
+        .SIZE-wrapper { width: var(--SIZE-width); margin-inline: auto; }`,
+    varString: `--SIZE-KEY: VALUE;`,
+    values: [
+      "min(100vw - 1.4rem, 3rem)",
+      "min(100vw - 1.4rem, 7rem)",
+      "min(100vw - 1.4rem, 16rem)",
+      "min(100vw - 1.4rem, 33rem)",
+      "min(100vw - 1.4rem, 48rem)",
+      "min(100vw - 1.4rem, 50rem)",
+      "min(100vw - 1.4rem, 54rem)",
+      "min(100vw - 1.4rem, 58rem)",
+      "min(100vw - 1.4rem, 64rem)",
+    ],
+  },
+};
+const borderRadii = [
+  `bottom-left`,
+  `bottom-right`,
+  `end-end`,
+  `end-start`,
+  `start-end`,
+  `start-start`,
+  `top-left`,
+  `top-right`,
+];
+const colors = [
+  "background",
+  "black",
+  "white",
+  "match",
+  "reverse",
+  "default",
+  "heading",
+  "link",
+  "accent",
+  "info",
+];
+const edges = [
+  `block`,
+  `block-end`,
+  `block-start`,
+  `bottom`,
+  `inline`,
+  `inline-end`,
+  `inline-start`,
+  `left`,
+  `right`,
+  `top`,
+];
+const prefixes = ["", "faded-"];
+const sizes = [
+  "xxxsmall",
+  "xxsmall",
+  "xsmall",
+  "small",
+  "default",
+  "large",
+  "xlarge",
+  "xxlarge",
+  "xxxlarge",
+];
+const fullWidth = "calc(100vw - 1.4rem)";
+function cssVarsDev() {
+  let lines = [];
+  for (const [key, data] of Object.entries(baseParams)) {
+    data.values.forEach((value, itemIndex) => {
+      lines.push(
+        data.varString
+          .replaceAll(`KEY`, key)
+          .replaceAll(`SIZE`, sizes[itemIndex])
+          .replaceAll(`VALUE`, value),
+      );
+    });
+  }
+  for (const [key, data] of Object.entries(baseParams)) {
+    data.values.forEach((value, itemIndex) => {
+      lines.push(
+        data
+          .classString
+          .replaceAll(`SIZE`, sizes[itemIndex])
+          .replaceAll(`VALUE`, value)
+          .replaceAll(
+            `KEY`,
+            key,
+          ),
+      );
+    });
+  }
+  prefixes.forEach((prefix) => {
+    colors.forEach((color) => {
+      const key = `${prefix}${color}`;
+      lines.push(
+        `--${key}-border: 1px solid var(--${key}-color);
+        .${key}-background-color { background-color: var(--${key}-color); }
+        .${key}-color { color: var(--${key}-color); }
+        .${key}-border { border: var(--${key}-border); }`,
+      );
+      edges.forEach((edge) => {
+        lines.push(
+          `.${key}-${edge}-border { border-${edge}: var(--${key}-border); }`,
+        );
+      });
+    });
+  });
+  sizes.forEach((size) => {
+    edges.forEach((edge) => {
+      lines.push(
+        `.${size}-${edge}-padding { padding-${edge}: var(--${size}-padding); }
+        .${size}-${edge}-margin { margin-${edge}: var(--${size}-margin); }`,
+      );
+    });
+    borderRadii.forEach((item, itemIndex) => {
+      lines.push(
+        `--${size}-${item}-border-radius: ${item};`,
+      );
+      lines.push(
+        `.${size}-${item}-border-radius { border-${item}-radius: var(--${size}-border-radius);}`,
+      );
+    });
+  });
+  lines.push(
+    `--full-width: ${fullWidth};
+    .full-wrapper { width: var(--full-width); margin-inline: auto; }`,
+  );
+  return `:root { ${lines.join("\n")} }`;
+}
+function addSheet(content) {
+  const sheet = new CSSStyleSheet();
+  sheet.replaceSync(content);
+  document.adoptedStyleSheets.push(sheet);
+}
+addSheet(cssVarsDev());
+</script>
+
+<script>
+  function updateStyles(theme) {
+    if (theme) {
+      const styleKeys = colors.map((color) => `${color}-color`);
+      styleKeys.forEach((styleKey) => {
+        const key = `--${styleKey}--switch`;
+        if (theme === "auto") {
+          document.documentElement.style.removeProperty(key);
+        } else {
+          const value = `var(--${theme}--${styleKey})`;
+          document.documentElement.style.setProperty(
+            key, value
+          );
+        }
+      });
+      localStorage.setItem("theme", theme);
+    }
+  }
+  updateStyles(localStorage.getItem("theme"));
+</script>
+
+<style>
+  * {
+    margin: 0;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  :root {
+    --load-hider: 0;
+  }
+  .load-hider {
+    opacity: var(--load-hider);
+  }
+  html {
+    color-scheme: light dark;
+    background-color: var(--background-color);
+  }
+  body {
+    background-color: var(--background-color);
+    color: var(--default-color);
+    font-family: "system-ui";
+    font-size-adjust: 0.5;
+    font-size: var(--default-font-size);
+    line-height: var(--default-line-height);
+  }
+</style>
+
+<link rel="stylesheet" href="/styles/main.on.css" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<title></title>
+<meta property="og:title" content="" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.alanwsmith.com/" />
+<meta property="og:image" content="https://www.alanwsmith.com&#x2f;images&#x2f;og-image.jpg" />
+<link rel="apple-touch-icon" sizes="180x180" href="&#x2f;favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="&#x2f;favicons/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="&#x2f;favicons/favicon-32x32.png" />
+<link rel="manifest" href="&#x2f;favicons/site.webmanifest" />
+<link rel="mask-icon" href="&#x2f;favicons/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.alanwsmith.com&#x2f;images&#x2f;og-image.jpg">
+  </head>
+  <body>
+<noscript>
+  <p>
+    NOTE: This site use JavaScript which appears to be turned off. 
+    Most content will be fine, but some things won't work.
+  </p>
+  <style>:root { --load-hider: 1; }</style>
+</noscript>    <bitty-7-0
+      data-connect="/bitty-scripts/default.js" 
+      class="load-hider layout-wrapper">
+
+<header class="small-font-size default-wrapper xxxlarge-bottom-margin large-top-margin">
+  <bitty-7-0 
+    data-connect="/bitty-scripts/default.js ThemeSwitcher"
+    data-location="top"
+    data-init="themeSwitcher"></bitty-7-0>
+  <nav class="faded-default-top-border">
+    from <a href="https://www.alanwsmith.com/">alan w smith</a> ~ <a href="https:&#x2f;&#x2f;github.com&#x2f;alanwsmith&#x2f;">source</a> ~ <a href="https://socials.alanwsmith.com/">socials</a> ~
+    <a href="https://links.alanwsmith.com/">other projects</a> ~
+    <a href="https://www.alanwsmith.com/feeds/posts.xml">rss</a>
+  </nav>
+</header>
+      <main class="default-wrapper">
+<hgroup>
+    <h1>The Name(s) of My New Band</h1>
+  </hgroup>
+
+<div data-init="setup" class="display">
+<ul>
+<li>
+<p>Backwards Compatibility</p>
+</li>
+<li>
+<p>Mario Chess</p>
+</li>
+<li>
+<p>Hookers Green</p>
+</li>
+<li>
+<p>The Two Column Situation</p>
+</li>
+<li>
+<p>Thrift Store Media</p>
+</li>
+<li>
+<p>Sloth Eyes</p>
+</li>
+<li>
+<p>Chaos List</p>
+</li>
+<li>
+<p>Good Defaults</p>
+</li>
+<li>
+<p>Obscura</p>
+</li>
+<li>
+<p>Constant Crimes</p>
+</li>
+<li>
+<p>Commie Bullshit</p>
+</li>
+<li>
+<p>Righteous Hack</p>
+</li>
+<li>
+<p>Invisible Goldfish</p>
+</li>
+<li>
+<p>DJ &amp;</p>
+</li>
+<li>
+<p>Miniature Giant Space Hamster</p>
+</li>
+<li>
+<p>Danger Piñata</p>
+</li>
+<li>
+<p>Specific North West</p>
+</li>
+<li>
+<p>Anime Voice</p>
+</li>
+<li>
+<p>Chaos Kitten</p>
+</li>
+<li>
+<p>Goth Fonts</p>
+</li>
+<li>
+<p>Beaver Tank</p>
+</li>
+<li>
+<p>Last of the Time Lords</p>
+</li>
+<li>
+<p>Zeitgeist Babble</p>
+</li>
+<li>
+<p>Goulash Cannon</p>
+</li>
+<li>
+<p>Canonical Catboy</p>
+</li>
+<li>
+<p>Mishandling and War</p>
+</li>
+<li>
+<p>Dog Bite Awareness</p>
+</li>
+<li>
+<p>The Fictional Pachyderms</p>
+</li>
+<li>
+<p>The Inevitable Weirdness</p>
+</li>
+<li>
+<p>Killswitch Logger</p>
+</li>
+<li>
+<p>Unknown Senders</p>
+</li>
+<li>
+<p>Doom Goblin</p>
+</li>
+<li>
+<p>Voxel Sphere</p>
+</li>
+<li>
+<p>Designated Hole</p>
+</li>
+<li>
+<p>med check</p>
+</li>
+<li>
+<p>Quantitative Single-Cell Imaging Reveals Insulation of Morphogenic Signal Transduction</p>
+</li>
+<li>
+<p>ECKS-RAY</p>
+</li>
+<li>
+<p>Fuck Pizza</p>
+</li>
+<li>
+<p>Resident Lesbian</p>
+</li>
+<li>
+<p>Mesocarnivore</p>
+</li>
+<li>
+<p>Basically Friday</p>
+</li>
+<li>
+<p>Flabbergasted</p>
+</li>
+<li>
+<p>Gender Rebels</p>
+</li>
+<li>
+<p>Cake Fork</p>
+</li>
+<li>
+<p>Killdozer</p>
+</li>
+<li>
+<p>Woke Pope</p>
+</li>
+<li>
+<p>Johnny 5</p>
+</li>
+<li>
+<p>Surprise Carrot</p>
+</li>
+<li>
+<p>1202 Alarm</p>
+</li>
+<li>
+<p>The Savage Rebuttal</p>
+</li>
+<li>
+<p>Furry Crypto Nerd</p>
+</li>
+<li>
+<p>The Missing Colors</p>
+</li>
+<li>
+<p>Texas German Accent</p>
+</li>
+<li>
+<p>$TEMPORAL_NOUN</p>
+</li>
+<li>
+<p>Death By Monkeys</p>
+</li>
+<li>
+<p>Odo Fucks</p>
+</li>
+<li>
+<p>Fuck Hitler</p>
+</li>
+<li>
+<p>Dead Cat Bounce</p>
+</li>
+<li>
+<p>Angry Owl</p>
+</li>
+<li>
+<p>Monkey Typewriter</p>
+</li>
+<li>
+<p>Cute Monkey</p>
+</li>
+<li>
+<p>Mutable World</p>
+</li>
+<li>
+<p>Faxlore</p>
+</li>
+<li>
+<p>Dead Code</p>
+</li>
+<li>
+<p>Banana Botox</p>
+</li>
+<li>
+<p>Keith</p>
+</li>
+<li>
+<p>Rock Lobster</p>
+</li>
+<li>
+<p>German Power Rangers</p>
+</li>
+<li>
+<p>Glomar Response</p>
+</li>
+<li>
+<p>Wardrobe Malfunction</p>
+</li>
+<li>
+<p>Free Whiskey</p>
+</li>
+<li>
+<p>Tits and Cats</p>
+</li>
+<li>
+<p>Weed Pizza</p>
+</li>
+<li>
+<p>Dystopian Bingo</p>
+</li>
+<li>
+<p>Voice Porn</p>
+</li>
+<li>
+<p>Lord Nikon</p>
+</li>
+<li>
+<p>Teeth Spinach</p>
+</li>
+<li>
+<p>Funk Punch</p>
+</li>
+<li>
+<p>Network Time Protocol</p>
+</li>
+<li>
+<p>Ninja Society</p>
+</li>
+<li>
+<p>Boob Shadow</p>
+</li>
+<li>
+<p>The Full Naked Sting</p>
+</li>
+<li>
+<p>Whoop Ass Gallon</p>
+</li>
+<li>
+<p>The Polyfill Path</p>
+</li>
+<li>
+<p>Rabbit Hole Dive</p>
+</li>
+<li>
+<p>Bath Bacon</p>
+</li>
+<li>
+<p>Schrödinger's Shotgun</p>
+</li>
+<li>
+<p>Smart Monkey Sugar Burn</p>
+</li>
+<li>
+<p>Lord of Things</p>
+</li>
+<li>
+<p>Moss Face</p>
+</li>
+<li>
+<p>Pidgin Donuts</p>
+</li>
+<li>
+<p>Seam Rippers</p>
+</li>
+<li>
+<p>Dead Tree Format</p>
+</li>
+<li>
+<p>The Radical Priest</p>
+</li>
+<li>
+<p>Ninja Craze</p>
+</li>
+<li>
+<p>The Quaternion Countdown</p>
+</li>
+<li>
+<p>[Object Object]</p>
+</li>
+<li>
+<p>Llamammatus</p>
+</li>
+<li>
+<p>Inky, Blinky, Pinky, and Clyde</p>
+</li>
+<li>
+<p>The Sort Of Infinite Loops</p>
+</li>
+<li>
+<p>Shrimp Jesus</p>
+</li>
+<li>
+<p>Yak 7</p>
+</li>
+<li>
+<p>Seared Tofu</p>
+</li>
+<li>
+<p>The Pedantic Dev</p>
+</li>
+<li>
+<p>Event Horizon Telescope</p>
+</li>
+<li>
+<p>Hitchcock Zoom</p>
+</li>
+<li>
+<p>Bust of Mao</p>
+</li>
+<li>
+<p>Giraffe Weevil</p>
+</li>
+<li>
+<p>Fish Mafia</p>
+</li>
+<li>
+<p>Boomer Mode</p>
+</li>
+<li>
+<p>High School Selfie</p>
+</li>
+<li>
+<p>Discount Danger</p>
+</li>
+<li>
+<p>Atomic Space Gun</p>
+</li>
+<li>
+<p>The Adama Maneuver</p>
+</li>
+<li>
+<p>The Alt Defaults</p>
+</li>
+<li>
+<p>Razor Apple</p>
+</li>
+<li>
+<p>The Epoch Args</p>
+</li>
+<li>
+<p>Merlin's Arthur</p>
+</li>
+<li>
+<p>Ascot</p>
+</li>
+<li>
+<p>Baby Groot Doodle</p>
+</li>
+<li>
+<p>Bad Loop</p>
+</li>
+<li>
+<p>Baseline Syndrome</p>
+</li>
+<li>
+<p>Billion Laughs Attack</p>
+</li>
+<li>
+<p>Goku Banana Hammock</p>
+</li>
+<li>
+<p>Block Sender</p>
+</li>
+<li>
+<p>Booze Box</p>
+</li>
+<li>
+<p>The Breaking Changes</p>
+</li>
+<li>
+<p>Blood Acid</p>
+</li>
+<li>
+<p>Bum Slider</p>
+</li>
+<li>
+<p>Burner Candles</p>
+</li>
+<li>
+<p>The Busy Signal</p>
+</li>
+<li>
+<p>Car Wash Selfie</p>
+</li>
+<li>
+<p>Cartoon Violence</p>
+</li>
+<li>
+<p>Cat Crocs</p>
+</li>
+<li>
+<p>Clowns Of The Bird World</p>
+</li>
+<li>
+<p>Craving Catharsis</p>
+</li>
+<li>
+<p>Crime School</p>
+</li>
+<li>
+<p>Celebrity Professor</p>
+</li>
+<li>
+<p>Chaos Grenade</p>
+</li>
+<li>
+<p>Hangover Cheeseburger</p>
+</li>
+<li>
+<p>Whiskey Chocolate</p>
+</li>
+<li>
+<p>The Church Giggles</p>
+</li>
+<li>
+<p>Code Smell</p>
+</li>
+<li>
+<p>Code Two</p>
+</li>
+<li>
+<p>Combo Curses</p>
+</li>
+<li>
+<p>Comparator Fusebox</p>
+</li>
+<li>
+<p>Concussion Protocol</p>
+</li>
+<li>
+<p>Context Drift</p>
+</li>
+<li>
+<p>Date Time Zulu</p>
+</li>
+<li>
+<p>The De-orbit Burn</p>
+</li>
+<li>
+<p>The Dead Dragonflies</p>
+</li>
+<li>
+<p>Dead Jury</p>
+</li>
+<li>
+<p>Decision Tree</p>
+</li>
+<li>
+<p>Deeper Epiphany</p>
+</li>
+<li>
+<p>Disaster Recovery</p>
+</li>
+<li>
+<p>Double Hurricane and the Murder Hornets</p>
+</li>
+<li>
+<p>Dox Panic</p>
+</li>
+<li>
+<p>Dragon Launch</p>
+</li>
+<li>
+<p>The Dramatic Pets</p>
+</li>
+<li>
+<p>Eagle, Houston</p>
+</li>
+<li>
+<p>Electric Super Sex</p>
+</li>
+<li>
+<p>Day Fuck</p>
+</li>
+<li>
+<p>Fuck That Noise</p>
+</li>
+<li>
+<p>Face Palm Picard</p>
+</li>
+<li>
+<p>Fail Wail</p>
+</li>
+<li>
+<p>Styx Fish</p>
+</li>
+<li>
+<p>Frequency Illusion</p>
+</li>
+<li>
+<p>Geometricus</p>
+</li>
+<li>
+<p>Gjallarhorn</p>
+</li>
+<li>
+<p>Go / No-Go</p>
+</li>
+<li>
+<p>Grabthar's Hammer</p>
+</li>
+<li>
+<p>Hard Stop</p>
+</li>
+<li>
+<p>The Helpful Hotkeys</p>
+</li>
+<li>
+<p>Here Be Dragons</p>
+</li>
+<li>
+<p>Hobbit Mode</p>
+</li>
+<li>
+<p>Hot Chicken</p>
+</li>
+<li>
+<p>Ideas and Accidents</p>
+</li>
+<li>
+<p>Imma Gonna</p>
+</li>
+<li>
+<p>Infinite Descent</p>
+</li>
+<li>
+<p>Inverse Octothorp</p>
+</li>
+<li>
+<p>Invisible Clichés</p>
+</li>
+<li>
+<p>Italian Spiderman</p>
+</li>
+<li>
+<p>James-Luc Sky-Baggins</p>
+</li>
+<li>
+<p>The Goldblum Swagger</p>
+</li>
+<li>
+<p>Jelly Rage</p>
+</li>
+<li>
+<p>Journey's Hero</p>
+</li>
+<li>
+<p>Jump Puzzle</p>
+</li>
+<li>
+<p>Justice Pizza</p>
+</li>
+<li>
+<p>Yak Shaver's Kink</p>
+</li>
+<li>
+<p>The Knowledge Tools</p>
+</li>
+<li>
+<p>Konami Code</p>
+</li>
+<li>
+<p>Language Lookers</p>
+</li>
+<li>
+<p>Lazy River</p>
+</li>
+<li>
+<p>Lesbian Witch Hat</p>
+</li>
+<li>
+<p>Leeroy Jenkins</p>
+</li>
+<li>
+<p>Like, Share, Subscribe</p>
+</li>
+<li>
+<p>Ludicrous Speed</p>
+</li>
+<li>
+<p>The MacGyver Mullet</p>
+</li>
+<li>
+<p>Magnetar</p>
+</li>
+<li>
+<p>Maximum Chaos</p>
+</li>
+<li>
+<p>Memento Mori</p>
+</li>
+<li>
+<p>The Mermaid Diagrams</p>
+</li>
+<li>
+<p>Meter of Fact</p>
+</li>
+<li>
+<p>Mind Physics</p>
+</li>
+<li>
+<p>Mirror Shine</p>
+</li>
+<li>
+<p>Mnemosyne</p>
+</li>
+<li>
+<p>Moments of Vertigo</p>
+</li>
+<li>
+<p>Moral Combat</p>
+</li>
+<li>
+<p>Morgic Borton</p>
+</li>
+<li>
+<p>Mullet Headlights</p>
+</li>
+<li>
+<p>Multi-Pass</p>
+</li>
+<li>
+<p>Mute Switch</p>
+</li>
+<li>
+<p>Negative Ghost Rider</p>
+</li>
+<li>
+<p>Nocebo</p>
+</li>
+<li>
+<p>Nose Whistle</p>
+</li>
+<li>
+<p>Nostalgia No More</p>
+</li>
+<li>
+<p>Not A Robot</p>
+</li>
+<li>
+<p>Occident</p>
+</li>
+<li>
+<p>October Light</p>
+</li>
+<li>
+<p>Off By One</p>
+</li>
+<li>
+<p>Old Man Moves</p>
+</li>
+<li>
+<p>The Open Letter</p>
+</li>
+<li>
+<p>Out Of Band</p>
+</li>
+<li>
+<p>Out of Scope</p>
+</li>
+<li>
+<p>Panic Sync</p>
+</li>
+<li>
+<p>Paranoia Fatigue</p>
+</li>
+<li>
+<p>The Past Close Sellers</p>
+</li>
+<li>
+<p>Former Titans</p>
+</li>
+<li>
+<p>Peanut Butter Vengeance</p>
+</li>
+<li>
+<p>The Perceptual Motion Machine</p>
+</li>
+<li>
+<p>Piracy Invasion</p>
+</li>
+<li>
+<p>Playboi Descarti</p>
+</li>
+<li>
+<p>Please Read</p>
+</li>
+<li>
+<p>Poop Cult</p>
+</li>
+<li>
+<p>Port Clash</p>
+</li>
+<li>
+<p>The Post Cold Loogies</p>
+</li>
+<li>
+<p>Post No Bills</p>
+</li>
+<li>
+<p>Presto Change-o</p>
+</li>
+<li>
+<p>Previous Preface</p>
+</li>
+<li>
+<p>Prince Hat</p>
+</li>
+<li>
+<p>The Prosperity</p>
+</li>
+<li>
+<p>Quarantine Haircut</p>
+</li>
+<li>
+<p>Raster Vectors</p>
+</li>
+<li>
+<p>Real People. Not Actors.</p>
+</li>
+<li>
+<p>The Recursive Acronym</p>
+</li>
+<li>
+<p>Restless Energy</p>
+</li>
+<li>
+<p>Revolution Rain Out</p>
+</li>
+<li>
+<p>Rinse, Repeat</p>
+</li>
+<li>
+<p>Risk Profile</p>
+</li>
+<li>
+<p>The Roomba Knife Fight</p>
+</li>
+<li>
+<p>The School Night Drinking Club</p>
+</li>
+<li>
+<p>Schrödinger Chat</p>
+</li>
+<li>
+<p>Scope Creep</p>
+</li>
+<li>
+<p>Sean Connery's Ghost</p>
+</li>
+<li>
+<p>Separation of Concerns</p>
+</li>
+<li>
+<p>Sex-O-Tron 9000</p>
+</li>
+<li>
+<p>Sex Socks</p>
+</li>
+<li>
+<p>The Shameless Commerce Division</p>
+</li>
+<li>
+<p>#! (pronunced shabang)</p>
+</li>
+<li>
+<p>Smash Factor</p>
+</li>
+<li>
+<p>The Smooth Jazz Situation</p>
+</li>
+<li>
+<p>Snake Juice</p>
+</li>
+<li>
+<p>Snake River Canyon</p>
+</li>
+<li>
+<p>Space Calculator</p>
+</li>
+<li>
+<p>The Space Station Windows</p>
+</li>
+<li>
+<p>Spider Lightning</p>
+</li>
+<li>
+<p>Steve Martin's Banjo</p>
+</li>
+<li>
+<p>Strength of Shadows</p>
+</li>
+<li>
+<p>Subliminal Roleplay</p>
+</li>
+<li>
+<p>Superman’s Socks</p>
+</li>
+<li>
+<p>Suspicious Motives</p>
+</li>
+<li>
+<p>Swamp Ass</p>
+</li>
+<li>
+<p>Talkers Tangent</p>
+</li>
+<li>
+<p>The Temporary Cyborgs</p>
+</li>
+<li>
+<p>Thanos Thelonious</p>
+</li>
+<li>
+<p>Abstraction Boundaries</p>
+</li>
+<li>
+<p>The Abyss</p>
+</li>
+<li>
+<p>Ankle Blisters</p>
+</li>
+<li>
+<p>The Antipsychotics</p>
+</li>
+<li>
+<p>The Authority</p>
+</li>
+<li>
+<p>Backdoor Progression</p>
+</li>
+<li>
+<p>The Better Said</p>
+</li>
+<li>
+<p>The Buzz Threshold</p>
+</li>
+<li>
+<p>The Optimistic</p>
+</li>
+<li>
+<p>Chaos Fans</p>
+</li>
+<li>
+<p>The Church Coughers</p>
+</li>
+<li>
+<p>The Cocaine Manic</p>
+</li>
+<li>
+<p>Conspiracy Mechanics</p>
+</li>
+<li>
+<p>Dark Sometimes</p>
+</li>
+<li>
+<p>The Dead Blow Hammers</p>
+</li>
+<li>
+<p>The Dead Jellies</p>
+</li>
+<li>
+<p>Decision Tree</p>
+</li>
+<li>
+<p>Detritus</p>
+</li>
+<li>
+<p>Diacritic Symbiosis</p>
+</li>
+<li>
+<p>The Dress Code Violations</p>
+</li>
+<li>
+<p>The Edge Case</p>
+</li>
+<li>
+<p>The Error Message</p>
+</li>
+<li>
+<p>Exhale</p>
+</li>
+<li>
+<p>The Fast Facades</p>
+</li>
+<li>
+<p>The Fireable Offense</p>
+</li>
+<li>
+<p>The Flaming Balls</p>
+</li>
+<li>
+<p>The Future Historians</p>
+</li>
+<li>
+<p>The Gated Snares</p>
+</li>
+<li>
+<p>The Giant Spoon</p>
+</li>
+<li>
+<p>The Great Hypothesis</p>
+</li>
+<li>
+<p>The Greater Nerd Syndrome</p>
+</li>
+<li>
+<p>The Hapax Legomenon</p>
+</li>
+<li>
+<p>The Happy Path</p>
+</li>
+<li>
+<p>Hard Naming</p>
+</li>
+<li>
+<p>Hawthorne Effect</p>
+</li>
+<li>
+<p>The Hermit Tendencies</p>
+</li>
+<li>
+<p>The Idempotent</p>
+</li>
+<li>
+<p>Infinite Scroll</p>
+</li>
+<li>
+<p>Ink Drinkers</p>
+</li>
+<li>
+<p>The Intentionally Blank</p>
+</li>
+<li>
+<p>The Irregardless</p>
+</li>
+<li>
+<p>The Jenga Assumptions</p>
+</li>
+<li>
+<p>The Known Quantities</p>
+</li>
+<li>
+<p>The Long Familiars</p>
+</li>
+<li>
+<p>The Merely Marginal</p>
+</li>
+<li>
+<p>The More Specific</p>
+</li>
+<li>
+<p>The Mute Mistake</p>
+</li>
+<li>
+<p>The Mythical Monsters</p>
+</li>
+<li>
+<p>The Neither Nor</p>
+</li>
+<li>
+<p>The Non-Trivials</p>
+</li>
+<li>
+<p>The Pleasures Subjective</p>
+</li>
+<li>
+<p>Plucky Comic Relief</p>
+</li>
+<li>
+<p>The Polyphasic Nappers</p>
+</li>
+<li>
+<p>Poor Proxies</p>
+</li>
+<li>
+<p>The Psychoacoustics</p>
+</li>
+<li>
+<p>The Psychovisuals</p>
+</li>
+<li>
+<p>Raw Text Blobs</p>
+</li>
+<li>
+<p>The Representative State Transfer</p>
+</li>
+<li>
+<p>The Risky Mouth</p>
+</li>
+<li>
+<p>The See Also</p>
+</li>
+<li>
+<p>Slingshot Chickens</p>
+</li>
+<li>
+<p>The Solo Twins</p>
+</li>
+<li>
+<p>The String Literals</p>
+</li>
+<li>
+<p>Tack Sharp</p>
+</li>
+<li>
+<p>The Transparent Acoustic</p>
+</li>
+<li>
+<p>The Decision Tree</p>
+</li>
+<li>
+<p>The Unfortunately Erect</p>
+</li>
+<li>
+<p>Useful MacGuffins</p>
+</li>
+<li>
+<p>Various Memes</p>
+</li>
+<li>
+<p>The Vectors</p>
+</li>
+<li>
+<p>The Yak Shavers</p>
+</li>
+<li>
+<p>Thought Criminals</p>
+</li>
+<li>
+<p>God Thunderbolt</p>
+</li>
+<li>
+<p>Delta Time</p>
+</li>
+<li>
+<p>Tone Curve</p>
+</li>
+<li>
+<p>The Trademark Symbol</p>
+</li>
+<li>
+<p>Transform Fourier</p>
+</li>
+<li>
+<p>Truckstop Restroom</p>
+</li>
+<li>
+<p>The True Freshman</p>
+</li>
+<li>
+<p>Trust Chain</p>
+</li>
+<li>
+<p>Until Impossible</p>
+</li>
+<li>
+<p>The Utopia Target</p>
+</li>
+<li>
+<p>Vegas Coffee</p>
+</li>
+<li>
+<p>War Music</p>
+</li>
+<li>
+<p>War Rocket Ajax</p>
+</li>
+<li>
+<p>Hot Hail</p>
+</li>
+<li>
+<p>War Tuba</p>
+</li>
+<li>
+<p>Warchalk</p>
+</li>
+<li>
+<p>Wave Dash</p>
+</li>
+<li>
+<p>Wheels First</p>
+</li>
+<li>
+<p>Why Why Z</p>
+</li>
+<li>
+<p>Wild Turkey Surprise</p>
+</li>
+<li>
+<p>Arnold Palmer's Penis</p>
+</li>
+<li>
+<p>Willie and What's His Name</p>
+</li>
+<li>
+<p>Wine Bible</p>
+</li>
+<li>
+<p>Wolf Spider</p>
+</li>
+<li>
+<p>Yak Shavers Local 151</p>
+</li>
+<li>
+<p>Yak Stack Attack</p>
+</li>
+<li>
+<p>The Yoda Talking Ninjas</p>
+</li>
+<li>
+<p>ii–V–I</p>
+</li>
+<li>
+<p>kill -9</p>
+</li>
+<li>
+<p>local 3k</p>
+</li>
+<li>
+<p>sudo !! (pronounced sudo bang bang)</p>
+</li>
+<li>
+<p>Noise Floor</p>
+</li>
+<li>
+<p>The Vendor Lock-In</p>
+</li>
+<li>
+<p>Schrödinger Fanta</p>
+</li>
+<li>
+<p>atmo mod</p>
+</li>
+<li>
+<p>Geometricus</p>
+</li>
+<li>
+<p>Rejected Font</p>
+</li>
+<li>
+<p>Thoof Haskell</p>
+</li>
+<li>
+<p>The Stacked Divs</p>
+</li>
+<li>
+<p>Vampire Sex</p>
+</li>
+<li>
+<p>Zombie Chicken</p>
+</li>
+<li>
+<p>Agro Face</p>
+</li>
+<li>
+<p>Afternoon Adderall</p>
+</li>
+<li>
+<p>Pixar's Psycho</p>
+</li>
+<li>
+<p>Sexy Trains</p>
+</li>
+<li>
+<p>Shinny Tits</p>
+</li>
+<li>
+<p>Falcon Sex Hats</p>
+</li>
+</ul>
+</div>      </main>
+
+<footer class="default-wrapper xxlarge-block-padding">
+  <div class="small-font">
+    <div class="text-align-center">
+    from <a href="https://www.alanwsmith.com/">alan w smith</a>
+    </div>
+    <div class="text-align-center"><a href="https:&#x2f;&#x2f;github.com&#x2f;alanwsmith&#x2f;">source</a> ~ <a href="https://socials.alanwsmith.com/">socials</a> ~
+    <a href="https://links.alanwsmith.com/">other projects</a> ~
+    <a href="https://www.alanwsmith.com/feeds/posts.xml">rss</a>
+    </div>
+  </div>
+</footer>    </bitty-7-0>
+
+    <script src="&#x2f;components&#x2f;bitty-7.0.0-rc2.js" type="module"></script>
+
+    <script>
+      setTimeout(() => { 
+        document.documentElement.style.setProperty("--load-hider", "1");
+      }, 1300);
+    </script>
+  </body>
+</html>
