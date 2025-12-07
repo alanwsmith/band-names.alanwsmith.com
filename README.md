@@ -1,4 +1,4 @@
-# band-names.alanwsmith.com
+# TODO: Name this site
 
-This is my collection of new band names
+TODO: Fill in this readme.
 
