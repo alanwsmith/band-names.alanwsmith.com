@@ -1,5 +1,6 @@
 const templates = {
-  content: `<div data-receive="bandName" class="xlarge-block-padding"></div>
+  content:
+    `<div data-receive="bandName" class="xlarge-block-padding xxlarge-font-size"></div>
 <div
 class="xlarge-block-padding">
 <button data-send="bandName" 
