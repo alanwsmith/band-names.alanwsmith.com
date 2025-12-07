@@ -1,32 +1,13 @@
 const templates = {
-  content:
-    `<div data-receive="bandName" class="xlarge-block-padding xxlarge-font-size"></div>
-<div
-class="xlarge-block-padding">
-<button data-send="bandName" 
->Get a Band Name</button>
-</div>
-`,
+  content: `
+<div data-receive="bandName" class="xlarge-block-padding xxlarge-font-size"></div>
+  <div class="xlarge-block-padding">
+  <button data-send="bandName">Get a Band Name</button>
+</div>`,
 };
-
-function randomFloat(min, max) {
-  return (Math.random() * (max - min)) + min;
-}
-
-function randomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 function setProp(key, value) {
   document.documentElement.style.setProperty(key, value);
-}
-
-function setPx(key, value) {
-  document.documentElement.style.setProperty(key, `${value}px`);
 }
 
 function shuffleArray(array) {
@@ -42,10 +23,6 @@ function shuffleArray(array) {
   }
 }
 
-function url() {
-  return new URL(window.location.href);
-}
-
 export default class {
   #currentName = 0;
   #names = [];
@@ -57,7 +34,7 @@ export default class {
   bandName(_, el) {
     el.innerHTML = this.#names[this.#currentName];
     this.#currentName += 1;
-    if (this.#currentName === this.#names.lenght) {
+    if (this.#currentName === this.#names.length) {
       this.#currentName = 0;
       shuffleArray(this.#names);
     }
@@ -70,68 +47,5 @@ export default class {
     shuffleArray(this.#names);
     el.replaceChildren(this.api.makeHTML(templates.content));
     this.api.trigger("bandName");
-  }
-}
-
-export class ThemeSwitcher {
-  constructor() {
-    this.vars = {
-      themes: [
-        ["auto", "Auto"],
-        ["light", "Light"],
-        ["hc-light", "HC Light"],
-        ["dark", "Dark"],
-        ["hc-dark", "HC Dark"],
-      ],
-      switcher: `<div class="theme-switcher"></div>`,
-
-      item: `<div><label>
-  <input type="radio" 
-    name="mode-LOCATION" 
-    value="KEY" 
-    data-send="changeTheme" 
-    data-receive="syncCheckedTheme" 
-    CHECKED
-/> NAME</label></div>`,
-    };
-  }
-
-  changeTheme(event, _el) {
-    if (event.type === "input") {
-      updateStyles(event.target.value);
-      this.api.trigger("syncCheckedTheme");
-    }
-  }
-
-  getCurrentTheme() {
-    let current = localStorage.getItem("theme");
-    if (current) {
-      return current;
-    } else {
-      return "auto";
-    }
-  }
-
-  themeSwitcher(_event, el) {
-    const switcher = this.api.makeElement(this.vars.switcher);
-    for (let theme of this.vars.themes) {
-      const checked = this.getCurrentTheme() === theme[0] ? "checked" : "";
-      const subs = [
-        ["KEY", theme[0]],
-        ["NAME", theme[1]],
-        ["CHECKED", checked],
-      ];
-      const option = this.api.makeElement(this.vars.item, subs);
-      switcher.appendChild(option);
-    }
-    el.replaceChildren(switcher);
-  }
-
-  syncCheckedTheme(_event, el) {
-    if (el.value === this.getCurrentTheme()) {
-      el.checked = true;
-    } else {
-      el.checked = false;
-    }
   }
 }
