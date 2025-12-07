@@ -1,6 +1,11 @@
 const templates = {
-  content: `<div data-receive="bandName"></div>
-<button data-send="bandName">Get a Band Name</button>`,
+  content: `<div data-receive="bandName" class="xlarge-block-padding"></div>
+<div
+class="xlarge-block-padding">
+<button data-send="bandName" 
+>Get a Band Name</button>
+</div>
+`,
 };
 
 function randomFloat(min, max) {
